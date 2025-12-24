@@ -26,7 +26,7 @@ export function getSintaJournals(researchField: string): Journal[] {
 
         if (!researchField) return [];
 
-        const searchTerms = researchField.toLowerCase().split(' ').filter(term => term.length > 3); // Simple keyword extraction if full sentence
+        // const searchTerms = researchField.toLowerCase().split(' ').filter(term => term.length > 3); // Simple keyword extraction if full sentence
 
         return journals.filter(j => {
             const broad = (j.broad_field || '').toLowerCase();

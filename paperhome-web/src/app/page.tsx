@@ -1,8 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { Upload, FileText, Check, Search, Globe, MapPin, ExternalLink, Loader2, Sparkles, BookOpen } from 'lucide-react';
-import clsx from 'clsx'; // Assumes clsx installed, or I'll use template literals if not sure. 
+import { Upload, FileText, Search, Globe, MapPin, ExternalLink, Loader2, Sparkles } from 'lucide-react';
 // I'll stick to template literals if clsx isn't guaranteed, but I queued installation. 
 // Let's use standard string concat for safety or checking valid syntax.
 
@@ -24,6 +23,8 @@ type AnalysisResult = {
   summary: string;
 };
 
+
+
 export default function Home() {
   const [file, setFile] = useState<File | null>(null);
   const [analyzing, setAnalyzing] = useState(false);
@@ -32,6 +33,7 @@ export default function Home() {
   const [results, setResults] = useState<{ national: Journal[], international: Journal[] } | null>(null);
   const [activeTab, setActiveTab] = useState<'national' | 'international'>('national');
   const [error, setError] = useState<string | null>(null);
+  const [selectedJournal, setSelectedJournal] = useState<Journal | null>(null);
 
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (e.target.files && e.target.files[0]) {
@@ -64,8 +66,8 @@ export default function Home() {
 
       const data = await res.json();
       setAnalysis(data);
-    } catch (err: any) {
-      setError(err.message);
+    } catch (err: unknown) {
+      setError((err as Error).message);
     } finally {
       setAnalyzing(false);
     }
@@ -88,8 +90,8 @@ export default function Home() {
 
       const data = await res.json();
       setResults(data);
-    } catch (err: any) {
-      setError(err.message);
+    } catch (err: unknown) {
+      setError((err as Error).message);
     } finally {
       setSearching(false);
     }
@@ -125,7 +127,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-semibold text-slate-700 mb-2">Upload your Manuscript</h3>
               <p className="text-slate-500 text-center max-w-md">
-                Drag and drop your PDF here, or click to browse. We'll analyze it locally and securely.
+                Drag and drop your PDF here, or click to browse. We&apos;ll analyze it locally and securely.
               </p>
             </>
           ) : (
@@ -242,7 +244,11 @@ export default function Home() {
               </div>
             ) : (
               (activeTab === 'national' ? results.national : results.international).map((journal, idx) => (
-                <div key={idx} className="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 hover:shadow-md transition-shadow flex items-start gap-4">
+                <div
+                  key={idx}
+                  onClick={() => setSelectedJournal(journal)}
+                  className="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 hover:shadow-md transition-shadow flex items-start gap-4 cursor-pointer"
+                >
                   <div className={`w-12 h-12 rounded-xl flex items-center justify-center shrink-0 ${activeTab === 'national' ? 'bg-blue-100 text-blue-700' : 'bg-indigo-100 text-indigo-700'}`}>
                     {activeTab === 'national' ? <MapPin size={24} /> : <Globe size={24} />}
                   </div>
@@ -265,7 +271,7 @@ export default function Home() {
                     </div>
 
                     <div className="mt-4 flex flex-wrap gap-2">
-                      {(Array.isArray(journal.specific_focus) ? journal.specific_focus : [journal.specific_focus]).map((tag: any, i: number) => (
+                      {(Array.isArray(journal.specific_focus) ? journal.specific_focus : [journal.specific_focus]).map((tag: string | unknown, i: number) => (
                         typeof tag === 'string' && (
                           <span key={i} className="px-2.5 py-1 bg-slate-50 text-slate-600 text-xs rounded-md border border-slate-100 truncate max-w-[200px]">
                             {tag}
@@ -276,15 +282,16 @@ export default function Home() {
                   </div>
 
                   <div className="self-center pl-4 border-l border-slate-100 flex flex-col items-center gap-2">
-                    <a
-                      href={journal.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
+                    <button
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        window.open(journal.url, '_blank', 'noopener,noreferrer');
+                      }}
                       className="p-2 text-slate-400 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-colors"
                       title="Visit Website"
                     >
                       <ExternalLink size={20} />
-                    </a>
+                    </button>
                     <div className="text-xs text-center font-medium text-slate-400 w-20">
                       {journal.avg_processing_time}
                     </div>
@@ -294,6 +301,75 @@ export default function Home() {
             )}
           </div>
         </section>
+      )}
+
+      {/* Details Modal */}
+      {selectedJournal && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/50 backdrop-blur-sm animate-in fade-in duration-200">
+          <div
+            className="bg-white rounded-3xl shadow-2xl max-w-2xl w-full p-8 relative animate-in zoom-in-95 duration-200"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <button
+              onClick={() => setSelectedJournal(null)}
+              className="absolute top-4 right-4 p-2 text-slate-400 hover:text-slate-600 rounded-full hover:bg-slate-100 transition-colors"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M18 6 6 18" /><path d="m6 6 12 12" /></svg>
+            </button>
+
+            <div className="mb-6">
+              <span className={`px-3 py-1 rounded-full text-xs font-bold uppercase ${selectedJournal.rank.includes('SINTA 1') || selectedJournal.rank.includes('SINTA 2') ? 'bg-green-100 text-green-700' :
+                  selectedJournal.rank.includes('Scopus') ? 'bg-purple-100 text-purple-700' :
+                    'bg-slate-100 text-slate-600'
+                }`}>
+                {selectedJournal.rank}
+              </span>
+              <h2 className="text-2xl font-bold text-slate-900 mt-2">{selectedJournal.name}</h2>
+              <p className="text-slate-500 text-lg mt-1">{selectedJournal.publisher}</p>
+            </div>
+
+            <div className="grid grid-cols-2 gap-6 mb-8">
+              <div className="p-4 bg-slate-50 rounded-xl">
+                <p className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">ISSN</p>
+                <p className="font-mono text-slate-700 font-semibold">{selectedJournal.issn}</p>
+              </div>
+              <div className="p-4 bg-slate-50 rounded-xl">
+                <p className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">Processing Time</p>
+                <p className="text-slate-700 font-semibold">{selectedJournal.avg_processing_time}</p>
+              </div>
+              <div className="col-span-2 p-4 bg-slate-50 rounded-xl">
+                <p className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-2">Focus & Scope</p>
+                <div className="flex flex-wrap gap-2">
+                  {(Array.isArray(selectedJournal.specific_focus) ? selectedJournal.specific_focus : [selectedJournal.specific_focus]).map((tag: string | unknown, i: number) => (
+                    typeof tag === 'string' && (
+                      <span key={i} className="px-2.5 py-1 bg-white text-slate-600 text-sm rounded-md border border-slate-200">
+                        {tag}
+                      </span>
+                    )
+                  ))}
+                </div>
+              </div>
+            </div>
+
+            <div className="flex justify-end gap-3">
+              <button
+                onClick={() => setSelectedJournal(null)}
+                className="px-5 py-2.5 text-slate-600 font-medium hover:bg-slate-50 rounded-xl transition-colors"
+              >
+                Close
+              </button>
+              <a
+                href={selectedJournal.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-5 py-2.5 bg-blue-600 text-white font-medium rounded-xl hover:bg-blue-700 shadow-lg shadow-blue-200 flex items-center gap-2 transition-all"
+              >
+                Visit Journal Website
+                <ExternalLink size={18} />
+              </a>
+            </div>
+          </div>
+        </div>
       )}
     </div>
   );

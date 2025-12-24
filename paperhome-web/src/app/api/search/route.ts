@@ -16,6 +16,7 @@ export async function POST(req: NextRequest) {
         const nationalJournals = getSintaJournals(field);
 
         // 2. International
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
         const internationalJournals: any[] = [];
         const keywordQuery = Array.isArray(keywords) ? keywords.join(' ') : keywords;
         const encodedQuery = encodeURIComponent(keywordQuery);
@@ -28,6 +29,7 @@ export async function POST(req: NextRequest) {
                 if (crData.message?.items) {
                     // Filter distinct journals from articles
                     const seen = new Set();
+                    // eslint-disable-next-line @typescript-eslint/no-explicit-any
                     crData.message.items.forEach((item: any) => {
                         const name = item['container-title']?.[0];
                         if (name && !seen.has(name)) {
@@ -57,6 +59,7 @@ export async function POST(req: NextRequest) {
             if (doajRes.ok) {
                 const doajData = await doajRes.json();
                 if (doajData.results) {
+                    // eslint-disable-next-line @typescript-eslint/no-explicit-any
                     doajData.results.forEach((r: any) => {
                         const name = r.bibjson.title;
                         // Avoid duplicates if possible (though unlikely to overlap perfectly with Crossref in this simple logic)
@@ -66,6 +69,7 @@ export async function POST(req: NextRequest) {
                             issn: r.bibjson.eissn || r.bibjson.pissn || 'N/A',
                             publisher: r.bibjson.publisher?.name || 'Unknown',
                             broad_field: field,
+                            // eslint-disable-next-line @typescript-eslint/no-explicit-any
                             specific_focus: r.bibjson.subject?.map((s: any) => s.term) || [],
                             avg_processing_time: r.bibjson.average_processing_time || 'Unknown', // DOAJ sometimes has this
                             url: r.bibjson.link?.[0]?.url || `https://doaj.org/toc/${r.bibjson.eissn}`,
