@@ -22,28 +22,9 @@ export async function POST(req: NextRequest) {
         if (file.type === 'application/pdf') {
             try {
                 // eslint-disable-next-line @typescript-eslint/no-require-imports
-                const pdfjsLib = require('pdfjs-dist');
-
-                // Convert Buffer to Uint8Array for pdfjs
-                const uint8Array = new Uint8Array(buffer);
-
-                const loadingTask = pdfjsLib.getDocument({ data: uint8Array });
-                const pdfDocument = await loadingTask.promise;
-
-                let fullText = '';
-                const numPages = pdfDocument.numPages;
-
-                // Limit pages to avoid timeout on large docs (e.g., first 10 pages)
-                const maxPages = Math.min(numPages, 10);
-
-                for (let i = 1; i <= maxPages; i++) {
-                    const page = await pdfDocument.getPage(i);
-                    const textContent = await page.getTextContent();
-                    const pageText = textContent.items.map((item: any) => item.str).join(' ');
-                    fullText += pageText + '\n';
-                }
-
-                textForAnalysis = fullText;
+                const pdf = require('pdf-parse');
+                const data = await pdf(buffer);
+                textForAnalysis = data.text;
             } catch (e: any) {
                 console.error('PDF Parse Error:', e);
                 return NextResponse.json({ error: `Failed to parse PDF: ${e.message || e}` }, { status: 500 });
