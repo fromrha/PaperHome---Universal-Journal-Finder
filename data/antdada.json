@@ -1,0 +1,753 @@
+[
+    {
+        "name": "International Journal of Public Health Science (IJPHS)",
+        "rank": "SINTA 1",
+        "issn": "2252-8806 (P-ISSN), 2620-4126 (E-ISSN)",
+        "publisher": "Intelektual Pustaka Media Utama & IAES",
+        "broad_field": "Health Sciences",
+        "specific_focus": [
+            "Public Health",
+            "Epidemiology",
+            "Health Policy",
+            "Community Health"
+        ],
+        "avg_processing_time": "Not specified",
+        "url": "https://ijphs.iaescore.com/"
+    },
+    {
+        "name": "The Indonesian Journal of Public Health",
+        "rank": "SINTA 1",
+        "issn": "1829-7005 (P-ISSN), 2540-8836 (E-ISSN)",
+        "publisher": "Universitas Airlangga",
+        "broad_field": "Health Sciences",
+        "specific_focus": [
+            "Occupational Health",
+            "Public Health",
+            "Environmental Health",
+            "Health Safety"
+        ],
+        "avg_processing_time": "Not specified",
+        "url": "https://e-journal.unair.ac.id/IJPH"
+    },
+    {
+        "name": "International Journal of Electrical and Computer Engineering (IJECE)",
+        "rank": "SINTA 1",
+        "issn": "2088-8708 (P-ISSN), 2722-2578 (E-ISSN)",
+        "publisher": "Institute of Advanced Engineering and Science",
+        "broad_field": "Engineering and Technology",
+        "specific_focus": [
+            "Electrical Engineering",
+            "Computer Engineering",
+            "Power Systems",
+            "Control Systems"
+        ],
+        "avg_processing_time": "Not specified",
+        "url": "https://ijece.iaescore.com/"
+    },
+    {
+        "name": "Indonesian Journal of Electrical Engineering and Computer Science (IJEECS)",
+        "rank": "SINTA 1",
+        "issn": "2502-4752 (P-ISSN), 2502-4760 (E-ISSN)",
+        "publisher": "Institute of Advanced Engineering and Science",
+        "broad_field": "Engineering and Technology",
+        "specific_focus": [
+            "Electrical Engineering",
+            "Computer Science",
+            "Information Technology",
+            "Telecommunications"
+        ],
+        "avg_processing_time": "Not specified",
+        "url": "https://ijeecs.iaescore.com/"
+    },
+    {
+        "name": "Journal of Indonesian Economy and Business (JIEB)",
+        "rank": "SINTA 1",
+        "issn": "2085-8272 (P-ISSN), 2338-5847 (E-ISSN)",
+        "publisher": "Universitas Gadjah Mada",
+        "broad_field": "Economics and Business",
+        "specific_focus": [
+            "Economics",
+            "Business Management",
+            "Finance",
+            "Accounting"
+        ],
+        "avg_processing_time": "Not specified",
+        "url": "https://journal.ugm.ac.id/jieb"
+    },
+    {
+        "name": "Indonesian Food Science and Technology Journal (IFSTJ)",
+        "rank": "SINTA 1",
+        "issn": "2615-367X (E-ISSN)",
+        "publisher": "Universitas Jambi",
+        "broad_field": "Agricultural Sciences",
+        "specific_focus": [
+            "Food Science",
+            "Food Technology",
+            "Food Engineering",
+            "Food Safety"
+        ],
+        "avg_processing_time": "1 week response time",
+        "url": "https://online-journal.unja.ac.id/ifstj"
+    },
+    {
+        "name": "Indonesian Journal of Agricultural Science",
+        "rank": "SINTA 1",
+        "issn": "1411-982X (P-ISSN), 2354-8509 (E-ISSN)",
+        "publisher": "Indonesian Agency for Agricultural Research and Development",
+        "broad_field": "Agricultural Sciences",
+        "specific_focus": [
+            "Crop Science",
+            "Plant Breeding",
+            "Agricultural Technology",
+            "Pest Management"
+        ],
+        "avg_processing_time": "Not specified",
+        "url": "https://ejurnal.litbang.pertanian.go.id/index.php/ijas"
+    },
+    {
+        "name": "Caraka Tani: Journal of Sustainable Agriculture",
+        "rank": "SINTA 1",
+        "issn": "0854-5138 (P-ISSN), 2613-9456 (E-ISSN)",
+        "publisher": "Universitas Sebelas Maret",
+        "broad_field": "Agricultural Sciences",
+        "specific_focus": [
+            "Sustainable Agriculture",
+            "Agricultural Ecology",
+            "Organic Farming",
+            "Food Security"
+        ],
+        "avg_processing_time": "Not specified",
+        "url": "https://jurnal.uns.ac.id/carakatani"
+    },
+    {
+        "name": "Harmonia: Journal of Arts Research and Education",
+        "rank": "SINTA 1",
+        "issn": "2541-1683 (P-ISSN), 2541-2426 (E-ISSN)",
+        "publisher": "Universitas Negeri Semarang",
+        "broad_field": "Humanities and Arts",
+        "specific_focus": [
+            "Arts Education",
+            "Music",
+            "Dance",
+            "Cultural Studies"
+        ],
+        "avg_processing_time": "Not specified",
+        "url": "https://journal.unnes.ac.id/nju/index.php/harmonia"
+    },
+    {
+        "name": "Journal of Biomedicine and Translational Research",
+        "rank": "SINTA 1",
+        "issn": "2503-2178 (P-ISSN), 2503-2682 (E-ISSN)",
+        "publisher": "Universitas Diponegoro",
+        "broad_field": "Health Sciences",
+        "specific_focus": [
+            "Biomedicine",
+            "Translational Research",
+            "Clinical Research",
+            "Medical Sciences"
+        ],
+        "avg_processing_time": "Not specified",
+        "url": "https://ejournal2.undip.ac.id/index.php/jbtr"
+    },
+    {
+        "name": "Jurnal Komunikasi UII",
+        "rank": "SINTA 2",
+        "issn": "1907-848X (P-ISSN), 2548-7647 (E-ISSN)",
+        "publisher": "Universitas Islam Indonesia",
+        "broad_field": "Social Sciences",
+        "specific_focus": [
+            "Communication Studies",
+            "Media Studies",
+            "Digital Communication",
+            "Political Communication"
+        ],
+        "avg_processing_time": "Not specified",
+        "url": "https://journal.uii.ac.id/jurnal-komunikasi"
+    },
+    {
+        "name": "Jurnal Komunikasi Ikatan Sarjana Komunikasi Indonesia (JKISKI)",
+        "rank": "SINTA 2",
+        "issn": "2503-0795 (P-ISSN), 2548-8740 (E-ISSN)",
+        "publisher": "Ikatan Sarjana Komunikasi Indonesia",
+        "broad_field": "Social Sciences",
+        "specific_focus": [
+            "Communication",
+            "Media Communication",
+            "Digital Media",
+            "Social Media"
+        ],
+        "avg_processing_time": "Not specified",
+        "url": "https://jurnal-iski.or.id/index.php/jkiski"
+    },
+    {
+        "name": "International Journal of Communication and Society",
+        "rank": "SINTA 2",
+        "issn": "2684-9267 (E-ISSN)",
+        "publisher": "Association for Scientific Computing Electronics and Engineering",
+        "broad_field": "Social Sciences",
+        "specific_focus": [
+            "Communication",
+            "Society",
+            "Media Studies",
+            "Digital Communication"
+        ],
+        "avg_processing_time": "Not specified",
+        "url": "https://journal.uii.ac.id/IJCOS"
+    },
+    {
+        "name": "Jurnal Psikologi",
+        "rank": "SINTA 2",
+        "issn": "1410-8639 (P-ISSN), 2302-1098 (E-ISSN)",
+        "publisher": "Universitas Diponegoro",
+        "broad_field": "Social Sciences",
+        "specific_focus": [
+            "Psychology",
+            "Clinical Psychology",
+            "Social Psychology",
+            "Developmental Psychology"
+        ],
+        "avg_processing_time": "Not specified",
+        "url": "https://ejournal.undip.ac.id/index.php/psikologi"
+    },
+    {
+        "name": "Jurnal Psikologi Ulayat",
+        "rank": "SINTA 2",
+        "issn": "2088-4230 (P-ISSN), 2580-1228 (E-ISSN)",
+        "publisher": "Konsorsium Psikologi Ilmiah Nusantara",
+        "broad_field": "Social Sciences",
+        "specific_focus": [
+            "Indigenous Psychology",
+            "Cultural Psychology",
+            "Social Sciences",
+            "Community Psychology"
+        ],
+        "avg_processing_time": "Not specified",
+        "url": "https://publication.k-pin.org/index.php/jpu"
+    },
+    {
+        "name": "Sosiohumaniora: Jurnal Ilmu-ilmu Sosial dan Humaniora",
+        "rank": "SINTA 2",
+        "issn": "1411-0903 (P-ISSN), 2579-5007 (E-ISSN)",
+        "publisher": "Universitas Padjadjaran",
+        "broad_field": "Social Sciences and Humanities",
+        "specific_focus": [
+            "Politics",
+            "Law",
+            "Economics",
+            "Social Change",
+            "Gender Studies"
+        ],
+        "avg_processing_time": "Not specified",
+        "url": "https://jurnal.unpad.ac.id/sosiohumaniora"
+    },
+    {
+        "name": "Jurnal Ilmu Sosial dan Humaniora",
+        "rank": "SINTA 2",
+        "issn": "2303-2898 (P-ISSN), 2549-6662 (E-ISSN)",
+        "publisher": "Universitas Pendidikan Ganesha",
+        "broad_field": "Social Sciences and Humanities",
+        "specific_focus": [
+            "Social Studies",
+            "Humanities",
+            "Cultural Studies",
+            "Community Studies"
+        ],
+        "avg_processing_time": "Not specified",
+        "url": "https://ejournal.undiksha.ac.id/index.php/JISH"
+    },
+    {
+        "name": "Indonesian Journal of Business and Entrepreneurship (IJBE)",
+        "rank": "SINTA 2",
+        "issn": "2407-5434 (P-ISSN), 2407-7321 (E-ISSN)",
+        "publisher": "IPB University",
+        "broad_field": "Economics and Business",
+        "specific_focus": [
+            "Business Management",
+            "Entrepreneurship",
+            "Innovation",
+            "Strategic Management"
+        ],
+        "avg_processing_time": "Not specified",
+        "url": "https://journal.ipb.ac.id/index.php/ijbe"
+    },
+    {
+        "name": "JITK (Jurnal Ilmu Pengetahuan dan Teknologi Komputer)",
+        "rank": "SINTA 2",
+        "issn": "2685-8223 (P-ISSN), 2527-4864 (E-ISSN)",
+        "publisher": "Universitas Nusa Mandiri",
+        "broad_field": "Engineering and Technology",
+        "specific_focus": [
+            "Computer Science",
+            "Information Technology",
+            "Software Engineering",
+            "Data Science"
+        ],
+        "avg_processing_time": "Not specified",
+        "url": "https://ejournal.nusamandiri.ac.id/index.php/jitk"
+    },
+    {
+        "name": "Scientific Journal of Informatics (SJI)",
+        "rank": "SINTA 2",
+        "issn": "2407-7658 (P-ISSN), 2460-0040 (E-ISSN)",
+        "publisher": "Universitas Negeri Semarang",
+        "broad_field": "Engineering and Technology",
+        "specific_focus": [
+            "Informatics",
+            "Computer Science",
+            "Information Systems",
+            "Computational Intelligence"
+        ],
+        "avg_processing_time": "Not specified",
+        "url": "https://journal.unnes.ac.id/nju/index.php/sji"
+    },
+    {
+        "name": "Journal of Applied Agricultural Science and Technology (JAAST)",
+        "rank": "SINTA 2",
+        "issn": "2549-7952 (P-ISSN), 2614-0403 (E-ISSN)",
+        "publisher": "Politeknik Pembangunan Pertanian Manokwari",
+        "broad_field": "Agricultural Sciences",
+        "specific_focus": [
+            "Agricultural Technology",
+            "Applied Agriculture",
+            "Sustainable Farming",
+            "Agricultural Innovation"
+        ],
+        "avg_processing_time": "Not specified",
+        "url": "https://www.jaast.org/"
+    },
+    {
+        "name": "Agro Bali: Agricultural Journal",
+        "rank": "SINTA 2",
+        "issn": "2655-853X (P-ISSN), 2655-8521 (E-ISSN)",
+        "publisher": "Universitas Panji Sakti",
+        "broad_field": "Agricultural Sciences",
+        "specific_focus": [
+            "Agronomy",
+            "Horticulture",
+            "Agricultural Systems",
+            "Crop Management"
+        ],
+        "avg_processing_time": "Not specified",
+        "url": "https://ejournal.unipas.ac.id/index.php/Agro"
+    },
+    {
+        "name": "Advances in Food Science, Sustainable Agriculture and Agroindustrial Engineering (AFSSAAE)",
+        "rank": "SINTA 2",
+        "issn": "2622-5921 (P-ISSN), 2622-5654 (E-ISSN)",
+        "publisher": "Universitas Brawijaya",
+        "broad_field": "Agricultural Sciences",
+        "specific_focus": [
+            "Food Science",
+            "Sustainable Agriculture",
+            "Agroindustrial Engineering",
+            "Biotechnology"
+        ],
+        "avg_processing_time": "Not specified",
+        "url": "https://afssaae.ub.ac.id/index.php/afssaae"
+    },
+    {
+        "name": "Journal of Health and Nutrition Research",
+        "rank": "SINTA 2",
+        "issn": "2829-9760 (E-ISSN)",
+        "publisher": "Media Publikasi Cendekia Indonesia",
+        "broad_field": "Health Sciences",
+        "specific_focus": [
+            "Health Research",
+            "Nutrition",
+            "Food Science",
+            "Public Health"
+        ],
+        "avg_processing_time": "Not specified",
+        "url": "https://journal.mediapublikasi.id/index.php/jhnr"
+    },
+    {
+        "name": "Journal of Applied Computer Science and Technology (JACOST)",
+        "rank": "SINTA 3",
+        "issn": "2723-1453 (P-ISSN), 2722-7391 (E-ISSN)",
+        "publisher": "Indonesian Society of Applied Science",
+        "broad_field": "Engineering and Technology",
+        "specific_focus": [
+            "Computer Science",
+            "Applied Technology",
+            "Information Systems",
+            "Software Engineering"
+        ],
+        "avg_processing_time": "Not specified",
+        "url": "https://journal.isas.or.id/index.php/JACOST"
+    },
+    {
+        "name": "JHSS (Journal of Humanities and Social Studies)",
+        "rank": "SINTA 3",
+        "issn": "2598-120X (P-ISSN), 2598-117X (E-ISSN)",
+        "publisher": "Universitas Pakuan",
+        "broad_field": "Social Sciences and Humanities",
+        "specific_focus": [
+            "Humanities",
+            "Social Studies",
+            "Economics",
+            "Management"
+        ],
+        "avg_processing_time": "Not specified",
+        "url": "https://journal.unpak.ac.id/index.php/jhss"
+    },
+    {
+        "name": "Dinasti International Journal of Education Management and Social Science (DIJEMSS)",
+        "rank": "SINTA 3",
+        "issn": "2686-522X (P-ISSN), 2715-0356 (E-ISSN)",
+        "publisher": "Dinasti Publisher",
+        "broad_field": "Education and Social Sciences",
+        "specific_focus": [
+            "Education Management",
+            "Social Sciences",
+            "Educational Research",
+            "Teaching Methods"
+        ],
+        "avg_processing_time": "Not specified",
+        "url": "https://dinastipub.org/DIJEMSS"
+    },
+    {
+        "name": "Jurnal Mutu Pangan: Indonesian Journal of Food Quality",
+        "rank": "SINTA 3",
+        "issn": "2355-5017 (P-ISSN), 2502-6631 (E-ISSN)",
+        "publisher": "IPB University",
+        "broad_field": "Agricultural Sciences",
+        "specific_focus": [
+            "Food Quality",
+            "Food Science",
+            "Food Safety",
+            "Food Technology"
+        ],
+        "avg_processing_time": "Not specified",
+        "url": "https://journal.ipb.ac.id/index.php/jmpi"
+    },
+    {
+        "name": "International Journal of Business, Humanities, Education and Social Sciences (IJBHES)",
+        "rank": "SINTA 4",
+        "issn": "2685-0931 (P-ISSN), 2685-2241 (E-ISSN)",
+        "publisher": "Universitas Teknologi Yogyakarta",
+        "broad_field": "Multidisciplinary",
+        "specific_focus": [
+            "Business",
+            "Humanities",
+            "Education",
+            "Social Sciences"
+        ],
+        "avg_processing_time": "Not specified",
+        "url": "https://journal.uty.ac.id/index.php/ijbhes"
+    },
+    {
+        "name": "International Journal of Humanities Education and Social Sciences (IJHESS)",
+        "rank": "SINTA 4",
+        "issn": "2808-1765 (P-ISSN), 2808-1757 (E-ISSN)",
+        "publisher": "CV. AFDIFAL MAJU BERKAH",
+        "broad_field": "Humanities and Social Sciences",
+        "specific_focus": [
+            "Humanities",
+            "Education",
+            "Social Sciences",
+            "Cultural Studies"
+        ],
+        "avg_processing_time": "Not specified",
+        "url": "https://ijhess.com/"
+    },
+    {
+        "name": "Indonesian Journal of Humanities and Social Sciences",
+        "rank": "SINTA 4",
+        "issn": "2746-2188 (E-ISSN)",
+        "publisher": "Universitas Islam Tribakti Lirboyo Kediri",
+        "broad_field": "Humanities and Social Sciences",
+        "specific_focus": [
+            "Humanities",
+            "Social Sciences",
+            "Religion",
+            "Cultural Studies"
+        ],
+        "avg_processing_time": "Not specified",
+        "url": "https://ejournal.iaiskjmalang.ac.id/index.php/ijhass"
+    },
+    {
+        "name": "Indonesian Journal for Health Sciences",
+        "rank": "SINTA 4",
+        "issn": "2549-2721 (P-ISSN), 2549-2748 (E-ISSN)",
+        "publisher": "Universitas Muhammadiyah Ponorogo",
+        "broad_field": "Health Sciences",
+        "specific_focus": [
+            "Health Sciences",
+            "Nursing",
+            "Public Health",
+            "Medical Sciences"
+        ],
+        "avg_processing_time": "Not specified",
+        "url": "https://journal.umpo.ac.id/index.php/IJHS"
+    },
+    {
+        "name": "BALANCE: Economic, Business, Management and Accounting Journal",
+        "rank": "SINTA 4",
+        "issn": "1693-9352 (P-ISSN), 2614-820X (E-ISSN)",
+        "publisher": "Universitas Muhammadiyah Surabaya",
+        "broad_field": "Economics and Business",
+        "specific_focus": [
+            "Economics",
+            "Business Management",
+            "Accounting",
+            "Finance"
+        ],
+        "avg_processing_time": "Not specified",
+        "url": "https://journal.um-surabaya.ac.id/balance"
+    },
+    {
+        "name": "Journal of Indonesian Applied Economics",
+        "rank": "SINTA 4",
+        "issn": "1907-8838 (P-ISSN), 2541-5395 (E-ISSN)",
+        "publisher": "Universitas Brawijaya",
+        "broad_field": "Economics",
+        "specific_focus": [
+            "Applied Economics",
+            "Development Economics",
+            "Economic Policy",
+            "Regional Economics"
+        ],
+        "avg_processing_time": "Not specified",
+        "url": "https://jiae.ub.ac.id/"
+    },
+    {
+        "name": "Indonesian Journal of Economics and Management",
+        "rank": "SINTA 4",
+        "issn": "2747-2536 (P-ISSN), 2747-2544 (E-ISSN)",
+        "publisher": "Politeknik Negeri Bandung",
+        "broad_field": "Economics and Business",
+        "specific_focus": [
+            "Economics",
+            "Management",
+            "Business Strategy",
+            "Finance"
+        ],
+        "avg_processing_time": "Not specified",
+        "url": "https://jurnal.polban.ac.id/ojs-3.1.2/ijem"
+    },
+    {
+        "name": "International Journal of Economics, Business and Accounting Research (IJEBAR)",
+        "rank": "SINTA 4",
+        "issn": "2614-1280 (P-ISSN), 2615-3246 (E-ISSN)",
+        "publisher": "ITB AAS Indonesia",
+        "broad_field": "Economics and Business",
+        "specific_focus": [
+            "Economics",
+            "Business",
+            "Accounting",
+            "Finance"
+        ],
+        "avg_processing_time": "Not specified",
+        "url": "https://jurnal.stie-aas.ac.id/index.php/IJEBAR"
+    },
+    {
+        "name": "International Journal Software Engineering and Computer Science (IJSECS)",
+        "rank": "SINTA 4",
+        "issn": "2776-4869 (P-ISSN), 2776-3242 (E-ISSN)",
+        "publisher": "Lembaga Komunitas Informasi Teknologi Aceh",
+        "broad_field": "Engineering and Technology",
+        "specific_focus": [
+            "Software Engineering",
+            "Computer Science",
+            "Information Systems",
+            "Programming"
+        ],
+        "avg_processing_time": "Not specified",
+        "url": "https://ijsecs.com/"
+    },
+    {
+        "name": "CO-SCIENCE: Global Journal of Computer Science & Digital Technology",
+        "rank": "SINTA 4",
+        "issn": "2774-9711 (E-ISSN), 2808-9065 (P-ISSN)",
+        "publisher": "Universitas Bina Sarana Informatika",
+        "broad_field": "Engineering and Technology",
+        "specific_focus": [
+            "Computer Science",
+            "Digital Technology",
+            "Data Mining",
+            "Cloud Computing"
+        ],
+        "avg_processing_time": "Not specified",
+        "url": "https://jurnal.bsi.ac.id/index.php/co-science"
+    },
+    {
+        "name": "JOSCEX (Journal of Soft Computing Exploration)",
+        "rank": "SINTA 4",
+        "issn": "2808-2990 (E-ISSN)",
+        "publisher": "SHM Publisher",
+        "broad_field": "Engineering and Technology",
+        "specific_focus": [
+            "Soft Computing",
+            "Artificial Intelligence",
+            "Machine Learning",
+            "Data Science"
+        ],
+        "avg_processing_time": "Not specified",
+        "url": "https://shmpublisher.com/index.php/joscex"
+    },
+    {
+        "name": "Journal of Health Research Science",
+        "rank": "SINTA 4",
+        "issn": "2798-7442 (E-ISSN)",
+        "publisher": "STIK Kendedes Malang",
+        "broad_field": "Health Sciences",
+        "specific_focus": [
+            "Health Research",
+            "Nursing",
+            "Public Health",
+            "Health Administration"
+        ],
+        "avg_processing_time": "Not specified",
+        "url": "https://ejournal.stikku.ac.id/index.php/jhrs"
+    },
+    {
+        "name": "Jurnal Ilmu Ilmu Agribisnis: Journal of Agribusiness Science",
+        "rank": "SINTA 4",
+        "issn": "2337-7070 (P-ISSN), 2461-1071 (E-ISSN)",
+        "publisher": "Universitas Lampung",
+        "broad_field": "Agricultural Sciences",
+        "specific_focus": [
+            "Agribusiness",
+            "Agricultural Economics",
+            "Rural Development",
+            "Food Security"
+        ],
+        "avg_processing_time": "Not specified",
+        "url": "https://jurnal.fp.unila.ac.id/index.php/JIA"
+    },
+    {
+        "name": "Indonesian Journal of Food Technology",
+        "rank": "SINTA 4",
+        "issn": "2962-6641 (E-ISSN)",
+        "publisher": "Universitas Jenderal Soedirman",
+        "broad_field": "Agricultural Sciences",
+        "specific_focus": [
+            "Food Technology",
+            "Food Processing",
+            "Food Engineering",
+            "Food Innovation"
+        ],
+        "avg_processing_time": "Not specified",
+        "url": "https://jos.unsoed.ac.id/index.php/ijft"
+    },
+    {
+        "name": "The Indonesian Journal of Communication Studies",
+        "rank": "SINTA 5",
+        "issn": "1978-323X (P-ISSN), 2541-2434 (E-ISSN)",
+        "publisher": "Universitas Mercu Buana",
+        "broad_field": "Social Sciences",
+        "specific_focus": [
+            "Communication Studies",
+            "Media Communication",
+            "Public Relations",
+            "Marketing Communication"
+        ],
+        "avg_processing_time": "Not specified",
+        "url": "https://jurnal.mercubuana.ac.id/index.php/ijcs"
+    },
+    {
+        "name": "Indonesian Economic Review",
+        "rank": "SINTA 5",
+        "issn": "2775-5665 (P-ISSN), 2775-5657 (E-ISSN)",
+        "publisher": "Indonesia Convention and Exhibition Bureau",
+        "broad_field": "Economics",
+        "specific_focus": [
+            "Indonesian Economy",
+            "Economic Development",
+            "Economic Policy",
+            "Trade"
+        ],
+        "avg_processing_time": "Not specified",
+        "url": "https://iconev.org/index.php/ier"
+    },
+    {
+        "name": "Jurnal Kesehatan Ilmiah Aufa Royhan",
+        "rank": "SINTA 5",
+        "issn": "2541-2213 (P-ISSN), 2541-2470 (E-ISSN)",
+        "publisher": "Universitas Aufa Royhan Padangsidimpuan",
+        "broad_field": "Health Sciences",
+        "specific_focus": [
+            "Health Sciences",
+            "Public Health",
+            "Nursing",
+            "Health Management"
+        ],
+        "avg_processing_time": "Not specified",
+        "url": "https://stikes-arifhusada.ac.id/jurnal/index.php/JAR"
+    },
+    {
+        "name": "EduChemia: Jurnal Kimia dan Pendidikan",
+        "rank": "SINTA 2",
+        "issn": "2502-4779 (P-ISSN), 2502-4787 (E-ISSN)",
+        "publisher": "Universitas Sultan Ageng Tirtayasa",
+        "broad_field": "Natural Sciences and Education",
+        "specific_focus": [
+            "Chemistry",
+            "Chemistry Education",
+            "Science Education",
+            "Material Science"
+        ],
+        "avg_processing_time": "Not specified",
+        "url": "https://jurnal.untirta.ac.id/index.php/EduChemia"
+    },
+    {
+        "name": "Journal of English Language Studies",
+        "rank": "SINTA 2",
+        "issn": "2527-7022 (P-ISSN), 2541-5131 (E-ISSN)",
+        "publisher": "Universitas Sultan Ageng Tirtayasa",
+        "broad_field": "Humanities",
+        "specific_focus": [
+            "English Language",
+            "Linguistics",
+            "Language Education",
+            "Applied Linguistics"
+        ],
+        "avg_processing_time": "Not specified",
+        "url": "https://jurnal.untirta.ac.id/index.php/JELS"
+    },
+    {
+        "name": "Journal of Governance (JOG)",
+        "rank": "SINTA 2",
+        "issn": "2460-0164 (P-ISSN), 2549-7669 (E-ISSN)",
+        "publisher": "Universitas Sultan Ageng Tirtayasa",
+        "broad_field": "Social Sciences",
+        "specific_focus": [
+            "Governance",
+            "Public Administration",
+            "Political Science",
+            "Public Policy"
+        ],
+        "avg_processing_time": "Not specified",
+        "url": "https://jurnal.untirta.ac.id/index.php/jog"
+    },
+    {
+        "name": "Journal Industrial Servicess (JISS)",
+        "rank": "SINTA 2",
+        "issn": "2541-1004 (P-ISSN), 2541-106X (E-ISSN)",
+        "publisher": "Universitas Sultan Ageng Tirtayasa",
+        "broad_field": "Engineering",
+        "specific_focus": [
+            "Industrial Engineering",
+            "Manufacturing",
+            "Operations Management",
+            "Quality Engineering"
+        ],
+        "avg_processing_time": "Not specified",
+        "url": "https://jurnal.untirta.ac.id/index.php/jiss"
+    },
+    {
+        "name": "Interaksi: Jurnal Ilmu Komunikasi",
+        "rank": "SINTA 2",
+        "issn": "2548-4907 (P-ISSN), 2548-6152 (E-ISSN)",
+        "publisher": "Universitas Diponegoro",
+        "broad_field": "Social Sciences",
+        "specific_focus": [
+            "Communication Science",
+            "Media Studies",
+            "Public Communication",
+            "Digital Media"
+        ],
+        "avg_processing_time": "Not specified",
+        "url": "https://ejournal.undip.ac.id/index.php/interaksi"
+    }
+]

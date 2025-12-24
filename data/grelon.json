@@ -1,0 +1,668 @@
+[
+    {
+        "name": "Jurnal Pendidikan IPA Indonesia (Indonesian Journal of Science Education)",
+        "rank": "S1",
+        "issn": "20894392/23391286",
+        "publisher": "Science Education Study Program, Faculty of Mathematics and Natural Sciences, Universitas Negeri Semarang",
+        "broad_field": "Education",
+        "specific_focus": [
+            "Science education",
+            "pedagogy"
+        ],
+        "avg_processing_time": "Not available",
+        "url": "https://journal.unnes.ac.id/nju/index.php/jpii"
+    },
+    {
+        "name": "Ahkam: Jurnal Ilmu Syariah",
+        "rank": "S1",
+        "issn": "24078646/14124734",
+        "publisher": "Universitas Islam Negeri Syarif Hidayatullah Jakarta",
+        "broad_field": "Social Sciences and Religion",
+        "specific_focus": [
+            "Islamic law",
+            "syariah studies"
+        ],
+        "avg_processing_time": "Not available",
+        "url": "https://sinta.kemdiktisaintek.go.id/journals/profile/870"
+    },
+    {
+        "name": "Al-'Adalah",
+        "rank": "S1",
+        "issn": "2614171X/08541272",
+        "publisher": "Fakultas Syari'ah Universitas Islam Negeri Raden Intan Lampung",
+        "broad_field": "Social Sciences and Religion",
+        "specific_focus": [
+            "Islamic law",
+            "justice"
+        ],
+        "avg_processing_time": "Not available",
+        "url": "https://sinta.kemdiktisaintek.go.id/journals/profile/764"
+    },
+    {
+        "name": "Indonesian Journal of Science and Technology",
+        "rank": "S1",
+        "issn": "25278045/25278045",
+        "publisher": "Universitas Pendidikan Indonesia",
+        "broad_field": "Science and Social Sciences",
+        "specific_focus": [
+            "Science and technology",
+            "interdisciplinary research"
+        ],
+        "avg_processing_time": "Not available",
+        "url": "https://sinta.kemdiktisaintek.go.id/journals/profile/3794"
+    },
+    {
+        "name": "Harmonia: Journal of Arts Research and Education",
+        "rank": "S1",
+        "issn": "25412426/25411683",
+        "publisher": "Department of Drama, Dance and Music, Faculty of Language and Arts, Universitas Negeri Semarang",
+        "broad_field": "Humanities and Art",
+        "specific_focus": [
+            "Arts research",
+            "education"
+        ],
+        "avg_processing_time": "Not available",
+        "url": "https://sinta.kemdiktisaintek.go.id/journals/profile/815"
+    },
+    {
+        "name": "International Journal of Electrical and Computer Engineering",
+        "rank": "S1",
+        "issn": "27222578/20888708",
+        "publisher": "Institute of Advanced Engineering and Science",
+        "broad_field": "Science and Engineering",
+        "specific_focus": [
+            "Electrical engineering",
+            "computer engineering"
+        ],
+        "avg_processing_time": "Not available",
+        "url": "https://sinta.kemdiktisaintek.go.id/journals/profile/693"
+    },
+    {
+        "name": "Psikohumaniora: Jurnal Penelitian Psikologi",
+        "rank": "S1",
+        "issn": "25277456/25029363",
+        "publisher": "Program Studi Psikologi Fakultas Psikologi dan Kesehatan Universitas Islam Negeri Walisongo Semarang",
+        "broad_field": "Health, Education, Social Sciences",
+        "specific_focus": [
+            "Psychology research",
+            "humanities"
+        ],
+        "avg_processing_time": "Not available",
+        "url": "https://sinta.kemdiktisaintek.go.id/journals/profile/185"
+    },
+    {
+        "name": "Jurnal Ilmiah Ilmu Terapan Universitas Jambi",
+        "rank": "S1",
+        "issn": "25802259/25802240",
+        "publisher": "LPPM Universitas Jambi",
+        "broad_field": "Education",
+        "specific_focus": [
+            "Applied sciences",
+            "education"
+        ],
+        "avg_processing_time": "Not available",
+        "url": "https://sinta.kemdiktisaintek.go.id/journals/profile/4154"
+    },
+    {
+        "name": "Ijtihad : Jurnal Wacana Hukum Islam dan Kemanusiaan",
+        "rank": "S1",
+        "issn": "24778036/24778036",
+        "publisher": "Fakultas Syariah IAIN Salatiga",
+        "broad_field": "Social Sciences",
+        "specific_focus": [
+            "Islamic law",
+            "humanities"
+        ],
+        "avg_processing_time": "Not available",
+        "url": "https://sinta.kemdiktisaintek.go.id/journals/profile/712"
+    },
+    {
+        "name": "APTISI Transactions on Technopreneurship",
+        "rank": "S1",
+        "issn": "26568888/26558807",
+        "publisher": "Pandawan Sejahtera Indonesia",
+        "broad_field": "Business and Technology",
+        "specific_focus": [
+            "Technopreneurship",
+            "business innovation"
+        ],
+        "avg_processing_time": "Not available",
+        "url": "https://sinta.kemdiktisaintek.go.id/journals/profile/8190"
+    },
+    {
+        "name": "Indonesian Journal of Islam and Muslim Societies",
+        "rank": "S1",
+        "issn": "2406825x/20891940",
+        "publisher": "Postgraduate Program IAIN Salatiga",
+        "broad_field": "Humanities, Art, Religion",
+        "specific_focus": [
+            "Islam",
+            "Muslim Societies",
+            "Religion"
+        ],
+        "avg_processing_time": "Not available",
+        "url": "https://sinta.kemdiktisaintek.go.id/journals/profile/668"
+    },
+    {
+        "name": "Bestuur",
+        "rank": "S1",
+        "issn": "27224708/23023783",
+        "publisher": "Universitas Sebelas Maret",
+        "broad_field": "Social Sciences",
+        "specific_focus": [
+            "Governance",
+            "Public Administration",
+            "Social Sciences"
+        ],
+        "avg_processing_time": "Not available",
+        "url": "https://sinta.kemdiktisaintek.go.id/journals/profile/6904"
+    },
+    {
+        "name": "Asean Journal of Science and Engineering (AJSE)",
+        "rank": "S1",
+        "issn": "27765938/27766098",
+        "publisher": "Universitas Pendidikan Indonesia",
+        "broad_field": "Science, Agriculture, Engineering",
+        "specific_focus": [
+            "Science",
+            "Engineering",
+            "Agriculture"
+        ],
+        "avg_processing_time": "Not available",
+        "url": "https://sinta.kemdiktisaintek.go.id/journals/profile/9219"
+    },
+    {
+        "name": "Nazhruna: Jurnal Pendidikan Islam",
+        "rank": "S1",
+        "issn": "26148013/26148013",
+        "publisher": "Program Studi Pendidikan Islam Institut Pesantren KH Abdul Chalim Pacet Mojokerto",
+        "broad_field": "Education and Religion",
+        "specific_focus": [
+            "Islamic Education",
+            "Pedagogy",
+            "Religion"
+        ],
+        "avg_processing_time": "Not available",
+        "url": "https://sinta.kemdiktisaintek.go.id/journals/profile/4882"
+    },
+    {
+        "name": "Makara Journal of Science",
+        "rank": "S1",
+        "issn": "23560851/23391995",
+        "publisher": "Universitas Indonesia",
+        "broad_field": "Science",
+        "specific_focus": [
+            "Science",
+            "Research",
+            "Technology"
+        ],
+        "avg_processing_time": "Not available",
+        "url": "https://sinta.kemdiktisaintek.go.id/journals/profile/738"
+    },
+    {
+        "name": "Jurnal Pendidikan Islam",
+        "rank": "S1",
+        "issn": "24608149/23554339",
+        "publisher": "The Faculty of Tarbiya and Teacher Training, Universitas Islam Negeri Sunan Gunung Djati Bandung Associated with Persatuan Sarjana Pendidikan Islam Indonesia (PSPII)",
+        "broad_field": "Education",
+        "specific_focus": [
+            "Islamic Education",
+            "Pedagogy",
+            "Teacher Training"
+        ],
+        "avg_processing_time": "Not available",
+        "url": "https://sinta.kemdiktisaintek.go.id/journals/profile/760"
+    },
+    {
+        "name": "Journal of Education and Learning (EduLearn)",
+        "rank": "S1",
+        "issn": "23029277/20899823",
+        "publisher": "Intelektual Pustaka Media Utama",
+        "broad_field": "Education",
+        "specific_focus": [
+            "Education",
+            "Learning",
+            "Pedagogy"
+        ],
+        "avg_processing_time": "Not available",
+        "url": "https://sinta.kemdiktisaintek.go.id/journals/profile/919"
+    },
+    {
+        "name": "Syariah Jurnal Hukum dan Pemikiran",
+        "rank": "S1",
+        "issn": "2549000x/14126303",
+        "publisher": "Universitas Islam Negeri Antasari Banjarmasin",
+        "broad_field": "Social Sciences",
+        "specific_focus": [
+            "Islamic Law",
+            "Legal Studies",
+            "Social Sciences"
+        ],
+        "avg_processing_time": "Not available",
+        "url": "https://sinta.kemdiktisaintek.go.id/journals/profile/4126"
+    },
+    {
+        "name": "Hasanuddin Law Review",
+        "rank": "S1",
+        "issn": "24429899",
+        "publisher": "Fakultas Hukum Universitas Hassanudin",
+        "broad_field": "Law",
+        "specific_focus": [
+            "Law",
+            "Legal Studies",
+            "Social Sciences"
+        ],
+        "avg_processing_time": "Not available",
+        "url": "https://sinta.kemdiktisaintek.go.id/journals/profile/946"
+    },
+    {
+        "name": "SAMARAH: Jurnal Hukum Keluarga dan Hukum Islam",
+        "rank": "S1",
+        "issn": "25493167/25473132",
+        "publisher": "Islamic Family Law Department, Sharia and Law Faculty, Universitas Islam Negeri Ar-Raniry, Banda Aceh, Indonesia",
+        "broad_field": "Law and Religion",
+        "specific_focus": [
+            "Islamic Law",
+            "Family Law",
+            "Religion"
+        ],
+        "avg_processing_time": "Not available",
+        "url": "https://sinta.kemdiktisaintek.go.id/journals/profile/4748"
+    },
+    {
+        "name": "IJoLE: International Journal of Language Education",
+        "rank": "S1",
+        "issn": "25488465/25488457",
+        "publisher": "Fakultas Bahasa dan Sastra Universitas Negeri Makassar",
+        "broad_field": "Humanities, Education, Art, Social Sciences",
+        "specific_focus": [
+            "Language Education",
+            "Humanities"
+        ],
+        "avg_processing_time": "Not available",
+        "url": "https://sinta.kemdiktisaintek.go.id/journals/profile/3954"
+    },
+    {
+        "name": "JURIS (Jurnal Ilmiah Syariah)",
+        "rank": "S1",
+        "issn": "25802763/14126109",
+        "publisher": "Institut Agama Islam Negeri Batusangkar",
+        "broad_field": "Economy, Education, Social Sciences",
+        "specific_focus": [
+            "Syariah",
+            "Economy",
+            "Social"
+        ],
+        "avg_processing_time": "Not available",
+        "url": "https://sinta.kemdiktisaintek.go.id/journals/profile/4081"
+    },
+    {
+        "name": "Volksgeist: Jurnal Ilmu Hukum dan Konstitusi",
+        "rank": "S1",
+        "issn": "26155648/2615174X",
+        "publisher": "Fakultas Syariah UIN Profesor Kiai Haji Saifuddin Zuhri Purwokerto",
+        "broad_field": "Law",
+        "specific_focus": [
+            "Hukum",
+            "Konstitusi"
+        ],
+        "avg_processing_time": "Not available",
+        "url": "https://sinta.kemdiktisaintek.go.id/journals/profile/6367"
+    },
+    {
+        "name": "Indonesian Journal of Electrical Engineering and Computer Science",
+        "rank": "S1",
+        "issn": "25024760/25024752",
+        "publisher": "Institute of Advanced Engineering and Science (IAES)",
+        "broad_field": "Science, Engineering",
+        "specific_focus": [
+            "Electrical Engineering",
+            "Computer Science"
+        ],
+        "avg_processing_time": "Not available",
+        "url": "https://sinta.kemdiktisaintek.go.id/journals/profile/697"
+    },
+    {
+        "name": "Jurnal Ilmiah Islam Futura",
+        "rank": "S1",
+        "issn": "24077542/24077542",
+        "publisher": "Center for Research and Community Service (LP2M) in cooperation with the Graduate Program of State Islamic University (UIN) Ar-Raniry Banda Aceh",
+        "broad_field": "Humanities, Art, Religion",
+        "specific_focus": [
+            "Islam",
+            "Religion",
+            "Humanities"
+        ],
+        "avg_processing_time": "Not available",
+        "url": "https://sinta.kemdiktisaintek.go.id/journals/profile/963"
+    },
+    {
+        "name": "International Journal of Evaluation and Research in Education (IJERE)",
+        "rank": "S1",
+        "issn": "26205440/22528822",
+        "publisher": "Institute of Advanced Engineering and Science",
+        "broad_field": "Education",
+        "specific_focus": [
+            "Evaluation",
+            "Education Research"
+        ],
+        "avg_processing_time": "Not available",
+        "url": "https://sinta.kemdiktisaintek.go.id/journals/profile/3539"
+    },
+    {
+        "name": "Journal of Indonesian Islam",
+        "rank": "S1",
+        "issn": "23556994/19786301",
+        "publisher": "Lembaga Studi Agama dan Sosial (LSAS) dan Program Pascasarjana Universitas Islam Negeri (UIN) Sunan Ampel Surabaya",
+        "broad_field": "Social Sciences and Religion",
+        "specific_focus": [
+            "Indonesian Islam",
+            "Religion"
+        ],
+        "avg_processing_time": "Not available",
+        "url": "https://sinta.kemdiktisaintek.go.id/journals/profile/661"
+    },
+    {
+        "name": "Journal of Islamic Law (JIL)",
+        "rank": "S1",
+        "issn": "27215040/27215032",
+        "publisher": "Institut Agama Islam Negeri Pontianak",
+        "broad_field": "Religion, Economy, Humanities, Social Sciences",
+        "specific_focus": [
+            "Islamic Law",
+            "Religion"
+        ],
+        "avg_processing_time": "Not available",
+        "url": "https://sinta.kemdiktisaintek.go.id/journals/profile/9792"
+    },
+    {
+        "name": "Gadjah Mada International Journal of Business",
+        "rank": "S1",
+        "issn": "23387238/14111128",
+        "publisher": "Magister Manajemen, Fakultas Ekonomika dan Bisnis, Universitas Gadjah Mada",
+        "broad_field": "Economy",
+        "specific_focus": [
+            "Business",
+            "Economy"
+        ],
+        "avg_processing_time": "Not available",
+        "url": "https://sinta.kemdiktisaintek.go.id/journals/profile/665"
+    },
+    {
+        "name": "Jurnal Ilmiah Peuradeun",
+        "rank": "S1",
+        "issn": "24432067/23388617",
+        "publisher": "SCAD Independent",
+        "broad_field": "Humanities, Art, Social Sciences",
+        "specific_focus": [
+            "Humanities",
+            "Social"
+        ],
+        "avg_processing_time": "Not available",
+        "url": "https://sinta.kemdiktisaintek.go.id/journals/profile/1038"
+    },
+    {
+        "name": "JHCLS",
+        "rank": "S1",
+        "issn": "28072812/28072979",
+        "publisher": "Lembaga Contrarius Institute",
+        "broad_field": "Health and Social Sciences",
+        "specific_focus": [
+            "Health",
+            "Social"
+        ],
+        "avg_processing_time": "Not available",
+        "url": "https://sinta.kemdiktisaintek.go.id/journals/profile/10841"
+    },
+    {
+        "name": "Journal of Regional and City Planning",
+        "rank": "S1",
+        "issn": "25026429",
+        "publisher": "ITB Journal Publisher, LPPM ITB",
+        "broad_field": "Engineering",
+        "specific_focus": [
+            "Regional Planning",
+            "City Planning"
+        ],
+        "avg_processing_time": "Not available",
+        "url": "https://sinta.kemdiktisaintek.go.id/journals/profile/832"
+    },
+    {
+        "name": "Legality : Jurnal Ilmiah Hukum",
+        "rank": "S1",
+        "issn": "25494600/08546509",
+        "publisher": "Fakultas Hukum Universitas Muhammadiyah Malang",
+        "broad_field": "Law",
+        "specific_focus": [
+            "Law",
+            "Legal Studies"
+        ],
+        "avg_processing_time": "Not available",
+        "url": "https://sinta.kemdiktisaintek.go.id/journals/profile/4607"
+    },
+    {
+        "name": "Journal of the Indonesian Tropical Animal Agriculture",
+        "rank": "S1",
+        "issn": "24606278/20878273",
+        "publisher": "Faculty of Animal and Agricultural Sciences-Diponegoro University and Indonesian Society of Animal Agriculture (ISAA)",
+        "broad_field": "Science and Agriculture",
+        "specific_focus": [
+            "Tropical Agriculture",
+            "Animal Science"
+        ],
+        "avg_processing_time": "Not available",
+        "url": "https://sinta.kemdiktisaintek.go.id/journals/profile/678"
+    },
+    {
+        "name": "Indonesian Journal of Halal Research",
+        "rank": "S1",
+        "issn": "26570165/26563754",
+        "publisher": "Halal Center UIN Sunan Gunung Djati Bandung",
+        "broad_field": "Religion and Science",
+        "specific_focus": [
+            "Halal Research",
+            "Islamic Studies"
+        ],
+        "avg_processing_time": "Not available",
+        "url": "https://sinta.kemdiktisaintek.go.id/journals/profile/6905"
+    },
+    {
+        "name": "El-Usrah : Jurnal Hukum Keluarga",
+        "rank": "S1",
+        "issn": "26208083",
+        "publisher": "Universitas Islam Negeri Ar-Raniry Banda Aceh",
+        "broad_field": "Law",
+        "specific_focus": [
+            "Family Law",
+            "Islamic Law"
+        ],
+        "avg_processing_time": "Not available",
+        "url": "https://sinta.kemdiktisaintek.go.id/journals/profile/7487"
+    },
+    {
+        "name": "Journal on Mathematics Education",
+        "rank": "S1",
+        "issn": "24070610",
+        "publisher": "Fakultas Keguruan dan Ilmu Pendidikan Universitas Sriwijaya",
+        "broad_field": "Education",
+        "specific_focus": [
+            "Mathematics Education",
+            "Pedagogy"
+        ],
+        "avg_processing_time": "Not available",
+        "url": "https://sinta.kemdiktisaintek.go.id/journals/profile/2113"
+    },
+    {
+        "name": "International Journal of Applied Power Engineering (IJAPE)",
+        "rank": "S1",
+        "issn": "27222624/22528792",
+        "publisher": "Institute of Advanced Engineering and Science",
+        "broad_field": "Engineering",
+        "specific_focus": [
+            "Power Engineering",
+            "Applied Engineering"
+        ],
+        "avg_processing_time": "Not available",
+        "url": "https://sinta.kemdiktisaintek.go.id/journals/profile/8824"
+    },
+    {
+        "name": "Millah: Journal of Religious Studies",
+        "rank": "S1",
+        "issn": "2527922X/14120992",
+        "publisher": "Universitas Islam Indonesia",
+        "broad_field": "Humanities, Art, Religion",
+        "specific_focus": [
+            "Religious Studies",
+            "Theology"
+        ],
+        "avg_processing_time": "Not available",
+        "url": "https://sinta.kemdiktisaintek.go.id/journals/profile/26"
+    },
+    {
+        "name": "Jurnal Infinity",
+        "rank": "S1",
+        "issn": "24609285",
+        "publisher": "Institut Keguruan dan Ilmu Pendidikan Siliwangi",
+        "broad_field": "Education",
+        "specific_focus": [
+            "Education",
+            "Teaching"
+        ],
+        "avg_processing_time": "Not available",
+        "url": "https://sinta.kemdiktisaintek.go.id/journals/profile/1722"
+    },
+    {
+        "name": "Al-Istinbath : Jurnal Hukum Islam",
+        "rank": "S1",
+        "issn": "25483382/25483374",
+        "publisher": "Institut Agama Islam Negeri Curup",
+        "broad_field": "Religion",
+        "specific_focus": [
+            "Islamic law",
+            "religion"
+        ],
+        "avg_processing_time": "Not available",
+        "url": "https://sinta.kemdiktisaintek.go.id/journals/profile/5026"
+    },
+    {
+        "name": "QIJIS (Qudus International Journal Of Islamic Studies)",
+        "rank": "S1",
+        "issn": "24769304/23551895",
+        "publisher": "IAIN Kudus, Indonesia",
+        "broad_field": "Education and Religion",
+        "specific_focus": [
+            "Islamic studies",
+            "education",
+            "religion"
+        ],
+        "avg_processing_time": "Not available",
+        "url": "https://sinta.kemdiktisaintek.go.id/journals/profile/1322"
+    },
+    {
+        "name": "Operations and Supply Chain Management: An International Journal",
+        "rank": "S1",
+        "issn": "25799363/19793561",
+        "publisher": "Laboratorium Logistik dan Supply Chain Management - Jurusan Teknik Industri ITS Surabaya",
+        "broad_field": "Engineering",
+        "specific_focus": [
+            "Supply chain",
+            "operations management",
+            "logistics"
+        ],
+        "avg_processing_time": "Not available",
+        "url": "https://sinta.kemdiktisaintek.go.id/journals/profile/3203"
+    },
+    {
+        "name": "International Journal of Education and Learning",
+        "rank": "S1",
+        "issn": "26849240",
+        "publisher": "Association for Scientific Computing Electronics and Engineering",
+        "broad_field": "Education",
+        "specific_focus": [
+            "Education",
+            "learning",
+            "scientific computing"
+        ],
+        "avg_processing_time": "Not available",
+        "url": "https://sinta.kemdiktisaintek.go.id/journals/profile/6910"
+    },
+    {
+        "name": "Journal of Islamic Monetary Economics and Finance",
+        "rank": "S1",
+        "issn": "24606618",
+        "publisher": "Bank Indonesia",
+        "broad_field": "Economics",
+        "specific_focus": [
+            "Islamic finance",
+            "monetary economics"
+        ],
+        "avg_processing_time": "Not available",
+        "url": "https://sinta.kemdiktisaintek.go.id/journals/profile/6126"
+    },
+    {
+        "name": "Journal of Robotics and Control (JRC)",
+        "rank": "S1",
+        "issn": "27155072/27155056",
+        "publisher": "Universitas Muhammadiyah Yogyakarta",
+        "broad_field": "Engineering",
+        "specific_focus": [
+            "Robotics",
+            "control systems"
+        ],
+        "avg_processing_time": "Not available",
+        "url": "https://sinta.kemdiktisaintek.go.id/journals/profile/8884"
+    },
+    {
+        "name": "Ulumuna",
+        "rank": "S1",
+        "issn": "27752453/14113457",
+        "publisher": "Universitas Islam Negeri Mataram",
+        "broad_field": "Religion, Humanities, Education, Art, Social Sciences",
+        "specific_focus": [
+            "Religion",
+            "humanities",
+            "education"
+        ],
+        "avg_processing_time": "Not available",
+        "url": "https://sinta.kemdiktisaintek.go.id/journals/profile/9155"
+    },
+    {
+        "name": "Biodiversitas : Journal of Biological Diversity",
+        "rank": "S1",
+        "issn": "20854722/1412033X",
+        "publisher": "Jurusan Biologi Fakultas Matematika dan Ilmu Pengetahuan Alam Universitas Sebelas Maret",
+        "broad_field": "Biology",
+        "specific_focus": [
+            "Biological diversity",
+            "biodiversity"
+        ],
+        "avg_processing_time": "Not available",
+        "url": "https://sinta.kemdiktisaintek.go.id/journals/profile/694"
+    },
+    {
+        "name": "Jurnal Ilmiah Al-Syir'ah",
+        "rank": "S1",
+        "issn": "25280368/16934202",
+        "publisher": "Fakultas Syariah IAIN Manado",
+        "broad_field": "Education and Social Sciences",
+        "specific_focus": [
+            "Islamic studies",
+            "social sciences"
+        ],
+        "avg_processing_time": "Not available",
+        "url": "https://sinta.kemdiktisaintek.go.id/journals/profile/4028"
+    },
+    {
+        "name": "Jurisdictie : Jurnal Hukum dan Syariah",
+        "rank": "S1",
+        "issn": "25283383/20867549",
+        "publisher": "Hukum Bisnis Syariah, Fakultas Syariah, Universitas Islam Negeri Maulana Malik Ibrahim Malang",
+        "broad_field": "Social Sciences",
+        "specific_focus": [
+            "Law",
+            "syariah"
+        ],
+        "avg_processing_time": "Not available",
+        "url": "https://sinta.kemdiktisaintek.go.id/journals/profile/9827"
+    }
+]

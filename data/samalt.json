@@ -1,0 +1,652 @@
+[
+  {
+    "name": "Jurnal Pendidikan IPA Indonesia",
+    "rank": "S1",
+    "issn": "20894392/23391286",
+    "publisher": "Science Education Study Program, Universitas Negeri Semarang:contentReference[oaicite:0]{index=0}",
+    "broad_field": "Education",
+    "specific_focus": [
+      "science education",
+      "teacher training"
+    ],
+    "avg_processing_time": "12 weeks",
+    "url": "https://journal.unnes.ac.id/index.php/jpii"
+  },
+  {
+    "name": "Ahkam: Jurnal Ilmu Syariah",
+    "rank": "S1",
+    "issn": "24078646/14124734",
+    "publisher": "Universitas Islam Negeri Syarif Hidayatullah Jakarta:contentReference[oaicite:1]{index=1}",
+    "broad_field": "Social Sciences",
+    "specific_focus": [
+      "Sharia law",
+      "Islamic jurisprudence"
+    ],
+    "avg_processing_time": "14 weeks",
+    "url": "https://journal.uinjkt.ac.id/index.php/ahkam"
+  },
+  {
+    "name": "Al-'Adalah",
+    "rank": "S1",
+    "issn": "2614171X/08541272",
+    "publisher": "Fakultas Syari'ah Universitas Islam Negeri Raden Intan Lampung:contentReference[oaicite:2]{index=2}",
+    "broad_field": "Humanities",
+    "specific_focus": [
+      "Islamic law",
+      "social justice"
+    ],
+    "avg_processing_time": "14 weeks",
+    "url": "https://ejournal.radenintan.ac.id/index.php/aladalah"
+  },
+  {
+    "name": "Indonesian Journal of Science and Technology",
+    "rank": "S1",
+    "issn": "25278045/25278045",
+    "publisher": "Universitas Pendidikan Indonesia:contentReference[oaicite:3]{index=3}",
+    "broad_field": "Science & Technology",
+    "specific_focus": [
+      "interdisciplinary science",
+      "technology research"
+    ],
+    "avg_processing_time": "12 weeks",
+    "url": "https://ejournal.upi.edu/index.php/ijost"
+  },
+  {
+    "name": "Harmonia: Journal of Arts Research and Education",
+    "rank": "S1",
+    "issn": "25412426/25411683",
+    "publisher": "Department of Drama, Dance and Music, Universitas Negeri Semarang:contentReference[oaicite:4]{index=4}",
+    "broad_field": "Arts & Humanities",
+    "specific_focus": [
+      "arts education",
+      "performing arts research"
+    ],
+    "avg_processing_time": "14 weeks",
+    "url": "https://journal.unnes.ac.id/nju/index.php/harmonia"
+  },
+  {
+    "name": "International Journal of Electrical and Computer Engineering",
+    "rank": "S1",
+    "issn": "27222578/20888708",
+    "publisher": "Institute of Advanced Engineering and Science:contentReference[oaicite:5]{index=5}",
+    "broad_field": "Engineering",
+    "specific_focus": [
+      "electrical engineering",
+      "computer engineering"
+    ],
+    "avg_processing_time": "12 weeks",
+    "url": "https://ijece.iaescore.com"
+  },
+  {
+    "name": "Psikohumaniora: Jurnal Penelitian Psikologi",
+    "rank": "S1",
+    "issn": "25277456/25029363",
+    "publisher": "Program Studi Psikologi, Universitas Islam Negeri Walisongo Semarang:contentReference[oaicite:6]{index=6}",
+    "broad_field": "Psychology",
+    "specific_focus": [
+      "mental health",
+      "counseling psychology"
+    ],
+    "avg_processing_time": "14 weeks",
+    "url": "https://journal.walisongo.ac.id/index.php/Psikohumaniora"
+  },
+  {
+    "name": "Indonesian Journal of Islam and Muslim Societies",
+    "rank": "S1",
+    "issn": "2406825X/20891940",
+    "publisher": "Universitas Islam Negeri Salatiga:contentReference[oaicite:7]{index=7}",
+    "broad_field": "Social Sciences",
+    "specific_focus": [
+      "Islamic society",
+      "religious studies"
+    ],
+    "avg_processing_time": "16 weeks",
+    "url": "https://ijims.iainsalatiga.ac.id/index.php/ijims"
+  },
+  {
+    "name": "Bestuur",
+    "rank": "S1",
+    "issn": "27224708/23023783",
+    "publisher": "Universitas Sriwijaya:contentReference[oaicite:8]{index=8}",
+    "broad_field": "Public Administration",
+    "specific_focus": [
+      "governance",
+      "administrative law"
+    ],
+    "avg_processing_time": "14 weeks",
+    "url": "https://ejournal.unsri.ac.id/index.php/bestuur"
+  },
+  {
+    "name": "Asean Journal of Science and Engineering",
+    "rank": "S1",
+    "issn": "27765938/27766098",
+    "publisher": "Universitas Pendidikan Indonesia:contentReference[oaicite:9]{index=9}",
+    "broad_field": "Engineering",
+    "specific_focus": [
+      "multidisciplinary science",
+      "engineering innovation"
+    ],
+    "avg_processing_time": "12 weeks",
+    "url": "https://ejournal.upi.edu/index.php/AJSE"
+  },
+  {
+    "name": "Nazhruna: Jurnal Pendidikan Islam",
+    "rank": "S1",
+    "issn": "26148013/26148013",
+    "publisher": "Institut Agama Islam Negeri Pekalongan:contentReference[oaicite:10]{index=10}",
+    "broad_field": "Education",
+    "specific_focus": [
+      "Islamic education",
+      "curriculum studies"
+    ],
+    "avg_processing_time": "14 weeks",
+    "url": "https://journal.iainpekalongan.ac.id/index.php/nazhruna"
+  },
+  {
+    "name": "Makara Journal of Science",
+    "rank": "S1",
+    "issn": "23560851/23391995",
+    "publisher": "Universitas Indonesia:contentReference[oaicite:11]{index=11}",
+    "broad_field": "Science",
+    "specific_focus": [
+      "natural sciences",
+      "biological sciences"
+    ],
+    "avg_processing_time": "12 weeks",
+    "url": "https://journal.ui.ac.id/science"
+  },
+  {
+    "name": "Jurnal Pendidikan Islam",
+    "rank": "S1",
+    "issn": "24608149/23554339",
+    "publisher": "Universitas Islam Negeri Sunan Gunung Djati Bandung:contentReference[oaicite:12]{index=12}",
+    "broad_field": "Education",
+    "specific_focus": [
+      "Islamic education",
+      "educational management"
+    ],
+    "avg_processing_time": "14 weeks",
+    "url": "https://jpi.ejournal.unisba.ac.id/index.php/jpi"
+  },
+  {
+    "name": "Journal of Education and Learning (EduLearn)",
+    "rank": "S1",
+    "issn": "23029277/20899823",
+    "publisher": "Institute of Advanced Engineering and Science:contentReference[oaicite:13]{index=13}",
+    "broad_field": "Education",
+    "specific_focus": [
+      "education technology",
+      "learning methodologies"
+    ],
+    "avg_processing_time": "14 weeks",
+    "url": "https://www.edulearn.in"
+  },
+  {
+    "name": "Syariah Jurnal Hukum dan Pemikiran",
+    "rank": "S1",
+    "issn": "2549000X/14126303",
+    "publisher": "Institut Agama Islam Negeri Ponorogo:contentReference[oaicite:14]{index=14}",
+    "broad_field": "Law",
+    "specific_focus": [
+      "syariah law",
+      "Islamic jurisprudence"
+    ],
+    "avg_processing_time": "16 weeks",
+    "url": "https://syariah.iainponorogo.ac.id"
+  },
+  {
+    "name": "Hasanuddin Law Review",
+    "rank": "S1",
+    "issn": "24429899/",
+    "publisher": "Universitas Hasanuddin:contentReference[oaicite:15]{index=15}",
+    "broad_field": "Law",
+    "specific_focus": [
+      "legal research",
+      "law reform"
+    ],
+    "avg_processing_time": "16 weeks",
+    "url": "https://ejournal.unhas.ac.id/index.php/halrev"
+  },
+  {
+    "name": "SAMARAH: Jurnal Hukum Keluarga dan Hukum Islam",
+    "rank": "S1",
+    "issn": "25493167/25473132",
+    "publisher": "UIN Walisongo Semarang:contentReference[oaicite:16]{index=16}",
+    "broad_field": "Law",
+    "specific_focus": [
+      "family law",
+      "Islamic law"
+    ],
+    "avg_processing_time": "14 weeks",
+    "url": "https://journal.walisongo.ac.id/index.php/samarah"
+  },
+  {
+    "name": "International Journal of Language Education",
+    "rank": "S1",
+    "issn": "25488465/25488457",
+    "publisher": "Universitas Negeri Makassar:contentReference[oaicite:17]{index=17}",
+    "broad_field": "Language Education",
+    "specific_focus": [
+      "language teaching",
+      "applied linguistics"
+    ],
+    "avg_processing_time": "12 weeks",
+    "url": "https://ojs.unm.ac.id/ijole"
+  },
+  {
+    "name": "JURIS (Jurnal Ilmiah Syariah)",
+    "rank": "S1",
+    "issn": "25802763/14126109",
+    "publisher": "IAIN Pontianak:contentReference[oaicite:18]{index=18}",
+    "broad_field": "Law",
+    "specific_focus": [
+      "Islamic jurisprudence",
+      "economic law"
+    ],
+    "avg_processing_time": "14 weeks",
+    "url": "https://journal.iainptk.ac.id/index.php/juris"
+  },
+  {
+    "name": "Volksgeist: Jurnal Ilmu Hukum dan Konstitusi",
+    "rank": "S1",
+    "issn": "26155648/2615174X",
+    "publisher": "Universitas Muhammadiyah Purwokerto:contentReference[oaicite:19]{index=19}",
+    "broad_field": "Law",
+    "specific_focus": [
+      "constitutional law",
+      "legal theory"
+    ],
+    "avg_processing_time": "14 weeks",
+    "url": "https://ejournal.ump.ac.id/index.php/volksgeist"
+  },
+  {
+    "name": "Indonesian Journal of Electrical Engineering and Computer Science",
+    "rank": "S1",
+    "issn": "25024760/25024752",
+    "publisher": "Institute of Advanced Engineering and Science:contentReference[oaicite:20]{index=20}",
+    "broad_field": "Engineering",
+    "specific_focus": [
+      "electrical engineering",
+      "computer science"
+    ],
+    "avg_processing_time": "12 weeks",
+    "url": "https://ijeecs.iaescore.com"
+  },
+  {
+    "name": "Jurnal Ilmiah Islam Futura",
+    "rank": "S1",
+    "issn": "24077542/24077542",
+    "publisher": "Universitas Islam Negeri Ar-Raniry:contentReference[oaicite:21]{index=21}",
+    "broad_field": "Religion",
+    "specific_focus": [
+      "Islamic studies",
+      "social research"
+    ],
+    "avg_processing_time": "14 weeks",
+    "url": "https://jurnal.ar-raniry.ac.id/index.php/islahfutura"
+  },
+  {
+    "name": "International Journal of Evaluation and Research in Education",
+    "rank": "S1",
+    "issn": "26205440/22528822",
+    "publisher": "Institute of Advanced Engineering and Science:contentReference[oaicite:22]{index=22}",
+    "broad_field": "Education",
+    "specific_focus": [
+      "educational evaluation",
+      "learning assessment"
+    ],
+    "avg_processing_time": "12 weeks",
+    "url": "https://ijere.iaescore.com"
+  },
+  {
+    "name": "Journal of Regional and City Planning",
+    "rank": "S1",
+    "issn": "25026429/25026429",
+    "publisher": "ITB Journal Publisher, Institut Teknologi Bandung:contentReference[oaicite:23]{index=23}",
+    "broad_field": "Engineering",
+    "specific_focus": [
+      "urban planning",
+      "regional development"
+    ],
+    "avg_processing_time": "16 weeks",
+    "url": "https://journals.itb.ac.id/index.php/jrpc"
+  },
+  {
+    "name": "Legality: Jurnal Ilmiah Hukum",
+    "rank": "S1",
+    "issn": "25494600/08546509",
+    "publisher": "Fakultas Hukum Universitas Muhammadiyah Malang:contentReference[oaicite:24]{index=24}",
+    "broad_field": "Law",
+    "specific_focus": [
+      "legal studies",
+      "jurisprudence"
+    ],
+    "avg_processing_time": "14 weeks",
+    "url": "https://ejournal.umm.ac.id/index.php/legality"
+  },
+  {
+    "name": "Journal of the Indonesian Tropical Animal Agriculture",
+    "rank": "S1",
+    "issn": "24606278/20878273",
+    "publisher": "Diponegoro University and Indonesian Society of Animal Agriculture:contentReference[oaicite:25]{index=25}",
+    "broad_field": "Agriculture",
+    "specific_focus": [
+      "animal science",
+      "tropical agriculture"
+    ],
+    "avg_processing_time": "12 weeks",
+    "url": "https://ejournal.undip.ac.id/index.php/jitaa"
+  },
+  {
+    "name": "Indonesian Journal of Halal Research",
+    "rank": "S1",
+    "issn": "26570165/26563754",
+    "publisher": "Halal Center UIN Sunan Gunung Djati Bandung:contentReference[oaicite:26]{index=26}",
+    "broad_field": "Science",
+    "specific_focus": [
+      "halal science",
+      "food safety"
+    ],
+    "avg_processing_time": "14 weeks",
+    "url": "https://journal.uinsgd.ac.id/index.php/ijhar"
+  },
+  {
+    "name": "Journal on Mathematics Education",
+    "rank": "S1",
+    "issn": "24070610/24070610",
+    "publisher": "Faculty of Teacher Training, Universitas Sriwijaya:contentReference[oaicite:27]{index=27}",
+    "broad_field": "Education",
+    "specific_focus": [
+      "mathematics education",
+      "curriculum design"
+    ],
+    "avg_processing_time": "12 weeks",
+    "url": "https://jme.ejournal.unsri.ac.id/index.php/jme"
+  },
+  {
+    "name": "International Journal of Applied Power Engineering",
+    "rank": "S1",
+    "issn": "27222624/22528792",
+    "publisher": "Institute of Advanced Engineering and Science:contentReference[oaicite:28]{index=28}",
+    "broad_field": "Engineering",
+    "specific_focus": [
+      "power engineering",
+      "energy systems"
+    ],
+    "avg_processing_time": "12 weeks",
+    "url": "https://ijape.iaescore.com"
+  },
+  {
+    "name": "Millah: Journal of Religious Studies",
+    "rank": "S1",
+    "issn": "2527922X/14120992",
+    "publisher": "Universitas Islam Indonesia:contentReference[oaicite:29]{index=29}",
+    "broad_field": "Religion",
+    "specific_focus": [
+      "religious studies",
+      "Islamic thought"
+    ],
+    "avg_processing_time": "14 weeks",
+    "url": "https://journal.uii.ac.id/Millah"
+  },
+  {
+    "name": "Jurnal Infinity",
+    "rank": "S1",
+    "issn": "24609285/24609285",
+    "publisher": "Institut Keguruan dan Ilmu Pendidikan Siliwangi:contentReference[oaicite:30]{index=30}",
+    "broad_field": "Education",
+    "specific_focus": [
+      "mathematics education",
+      "learning innovation"
+    ],
+    "avg_processing_time": "14 weeks",
+    "url": "https://e-journal.stkipsiliwangi.ac.id/index.php/infinity"
+  },
+  {
+    "name": "Al-Istinbath: Jurnal Hukum Islam",
+    "rank": "S1",
+    "issn": "25483382/25483374",
+    "publisher": "Institut Agama Islam Negeri Curup:contentReference[oaicite:31]{index=31}",
+    "broad_field": "Law",
+    "specific_focus": [
+      "Islamic law",
+      "fiqh"
+    ],
+    "avg_processing_time": "14 weeks",
+    "url": "https://journal.iaincurup.ac.id/index.php/istinbath"
+  },
+  {
+    "name": "QIJIS (Qudus International Journal Of Islamic Studies)",
+    "rank": "S1",
+    "issn": "24769304/23551895",
+    "publisher": "IAIN Kudus:contentReference[oaicite:32]{index=32}",
+    "broad_field": "Religion",
+    "specific_focus": [
+      "Islamic studies",
+      "Qur'anic studies"
+    ],
+    "avg_processing_time": "14 weeks",
+    "url": "https://journal.stainkudus.ac.id/index.php/qijis"
+  },
+  {
+    "name": "Operations and Supply Chain Management: An International Journal",
+    "rank": "S1",
+    "issn": "25799363/19793561",
+    "publisher": "Laboratorium Logistik dan Supply Chain Management, ITS Surabaya:contentReference[oaicite:33]{index=33}",
+    "broad_field": "Business & Engineering",
+    "specific_focus": [
+      "operations management",
+      "supply chain"
+    ],
+    "avg_processing_time": "14 weeks",
+    "url": "https://journal.oscm-forum.org"
+  },
+  {
+    "name": "International Journal of Education and Learning",
+    "rank": "S1",
+    "issn": "26849240/0",
+    "publisher": "Association for Scientific Computing Electronics and Engineering:contentReference[oaicite:34]{index=34}",
+    "broad_field": "Education",
+    "specific_focus": [
+      "education technology",
+      "learning science"
+    ],
+    "avg_processing_time": "12 weeks",
+    "url": "https://pubs2.ascee.org/index.php/ijele"
+  },
+  {
+    "name": "Journal of Islamic Monetary Economics and Finance",
+    "rank": "S1",
+    "issn": "24606618/-",
+    "publisher": "Bank Indonesia:contentReference[oaicite:35]{index=35}",
+    "broad_field": "Economics & Finance",
+    "specific_focus": [
+      "Islamic finance",
+      "monetary policy"
+    ],
+    "avg_processing_time": "16 weeks",
+    "url": "https://www.jimf-bi.org"
+  },
+  {
+    "name": "Journal of Robotics and Control (JRC)",
+    "rank": "S1",
+    "issn": "27155072/27155056",
+    "publisher": "Universitas Muhammadiyah Yogyakarta:contentReference[oaicite:36]{index=36}",
+    "broad_field": "Engineering",
+    "specific_focus": [
+      "robotics",
+      "control systems"
+    ],
+    "avg_processing_time": "12 weeks",
+    "url": "https://journal.umy.ac.id/index.php/jrc"
+  },
+  {
+    "name": "Ulumuna",
+    "rank": "S1",
+    "issn": "27752453/14113457",
+    "publisher": "Universitas Islam Negeri Mataram:contentReference[oaicite:37]{index=37}",
+    "broad_field": "Religion & Humanities",
+    "specific_focus": [
+      "religious studies",
+      "Islamic thought"
+    ],
+    "avg_processing_time": "14 weeks",
+    "url": "https://ulumuna.or.id/index.php/ujis"
+  },
+  {
+    "name": "Biodiversitas: Journal of Biological Diversity",
+    "rank": "S1",
+    "issn": "20854722/1412033X",
+    "publisher": "Jurusan Biologi, Universitas Sebelas Maret:contentReference[oaicite:38]{index=38}",
+    "broad_field": "Biological Sciences",
+    "specific_focus": [
+      "biodiversity",
+      "conservation biology"
+    ],
+    "avg_processing_time": "16 weeks",
+    "url": "https://biodiversitas.mipa.uns.ac.id/index.php/biodiv"
+  },
+  {
+    "name": "Cakrawala Pendidikan",
+    "rank": "S1",
+    "issn": "24428620/02161370",
+    "publisher": "Institute for Quality Assurance and Educational Development, Universitas Negeri Yogyakarta:contentReference[oaicite:39]{index=39}",
+    "broad_field": "Education",
+    "specific_focus": [
+      "education research",
+      "curriculum development"
+    ],
+    "avg_processing_time": "14 weeks",
+    "url": "https://journal.uny.ac.id/index.php/cp"
+  },
+  {
+    "name": "International Journal of Technology",
+    "rank": "S1",
+    "issn": "20872100/-",
+    "publisher": "Faculty of Engineering, Universitas Indonesia:contentReference[oaicite:40]{index=40}",
+    "broad_field": "Engineering & Technology",
+    "specific_focus": [
+      "technology innovation",
+      "engineering science"
+    ],
+    "avg_processing_time": "12 weeks",
+    "url": "https://ijtech.eng.ui.ac.id"
+  },
+  {
+    "name": "Jurnal Keperawatan Indonesia",
+    "rank": "S1",
+    "issn": "23549203/14104490",
+    "publisher": "Faculty of Nursing, Universitas Indonesia:contentReference[oaicite:41]{index=41}",
+    "broad_field": "Nursing",
+    "specific_focus": [
+      "nursing practice",
+      "clinical research"
+    ],
+    "avg_processing_time": "14 weeks",
+    "url": "https://jki.ui.ac.id/index.php/jki"
+  },
+  {
+    "name": "Wacana: Journal of the Humanities of Indonesia",
+    "rank": "S1",
+    "issn": "24076899/14112272",
+    "publisher": "Faculty of Humanities, Universitas Indonesia:contentReference[oaicite:42]{index=42}",
+    "broad_field": "Humanities",
+    "specific_focus": [
+      "linguistics",
+      "literature studies"
+    ],
+    "avg_processing_time": "16 weeks",
+    "url": "https://wacana.ui.ac.id/index.php/wjhi"
+  },
+  {
+    "name": "Indonesia Law Review",
+    "rank": "S2",
+    "issn": "23562129/20888430",
+    "publisher": "Djokosoetono Research Center, Faculty of Law, Universitas Indonesia:contentReference[oaicite:43]{index=43}",
+    "broad_field": "Law",
+    "specific_focus": [
+      "legal developments",
+      "law reform"
+    ],
+    "avg_processing_time": "16 weeks",
+    "url": "https://ilrev.ui.ac.id/index.php/home"
+  },
+  {
+    "name": "Nurse Media Journal of Nursing",
+    "rank": "S1",
+    "issn": "24068799/20877811",
+    "publisher": "Department of Nursing, Universitas Diponegoro:contentReference[oaicite:44]{index=44}",
+    "broad_field": "Nursing",
+    "specific_focus": [
+      "nursing research",
+      "health care"
+    ],
+    "avg_processing_time": "14 weeks",
+    "url": "https://ejournal.undip.ac.id/index.php/medianers"
+  },
+  {
+    "name": "Jurnal Ners",
+    "rank": "S1",
+    "issn": "25025791/18583598",
+    "publisher": "Faculty of Nursing, Universitas Airlangga:contentReference[oaicite:45]{index=45}",
+    "broad_field": "Nursing",
+    "specific_focus": [
+      "nursing practice",
+      "public health"
+    ],
+    "avg_processing_time": "14 weeks",
+    "url": "https://e-journal.unair.ac.id/JNERS"
+  },
+  {
+    "name": "Belitung Nursing Journal",
+    "rank": "S1",
+    "issn": "24774073/24774073",
+    "publisher": "Belitung Raya Foundation:contentReference[oaicite:46]{index=46}",
+    "broad_field": "Nursing",
+    "specific_focus": [
+      "nursing science",
+      "clinical studies"
+    ],
+    "avg_processing_time": "14 weeks",
+    "url": "https://www.belitungraya.org/BRP/index.php/bnj"
+  },
+  {
+    "name": "Jurnal Keperawatan Soedirman",
+    "rank": "S1",
+    "issn": "25799320/19076673",
+    "publisher": "Jurusan Keperawatan, Universitas Jenderal Soedirman:contentReference[oaicite:47]{index=47}",
+    "broad_field": "Nursing",
+    "specific_focus": [
+      "nursing research",
+      "community health"
+    ],
+    "avg_processing_time": "14 weeks",
+    "url": "https://jos.unsoed.ac.id/index.php/jks"
+  },
+  {
+    "name": "Binus Business Review",
+    "rank": "S2",
+    "issn": "24769053/20871228",
+    "publisher": "Bina Nusantara University:contentReference[oaicite:48]{index=48}",
+    "broad_field": "Business & Management",
+    "specific_focus": [
+      "business research",
+      "management studies"
+    ],
+    "avg_processing_time": "16 weeks",
+    "url": "https://journal.binus.ac.id/index.php/bbr"
+  },
+  {
+    "name": "ComTech: Computer, Mathematics and Engineering Applications",
+    "rank": "S2",
+    "issn": "2476907X/20871244",
+    "publisher": "Universitas Bina Nusantara:contentReference[oaicite:49]{index=49}",
+    "broad_field": "Engineering & Computing",
+    "specific_focus": [
+      "computer applications",
+      "engineering mathematics"
+    ],
+    "avg_processing_time": "14 weeks",
+    "url": "https://journal.binus.ac.id/index.php/comtech"
+  }
+]

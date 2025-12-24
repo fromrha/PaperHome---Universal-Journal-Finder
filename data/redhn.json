@@ -1,0 +1,1382 @@
+[
+    {
+        "name": "Wacana, Journal of the Humanities of Indonesia",
+        "rank": "SINTA 1",
+        "issn": "P-ISSN: 1411-2272 / E-ISSN: 2407-6899",
+        "publisher": "Faculty of Humanities, Universitas Indonesia",
+        "broad_field": "Humanities",
+        "specific_focus": [
+            "Philosophy",
+            "Literature",
+            "Archaeology",
+            "Anthropology",
+            "History"
+        ],
+        "avg_processing_time": "4-5 months (submission to decision)",
+        "url": "https://scholarhub.ui.ac.id/wacana/"
+    },
+    {
+        "name": "Indonesian Journal of Electrical Engineering and Computer Science (IJEECS )",
+        "rank": "SINTA 1",
+        "issn": "P-ISSN: 2502-4752 / E-ISSN: 2502-4760",
+        "publisher": "Institute of Advanced Engineering and Science (IAES)",
+        "broad_field": "Engineering and Computer Science",
+        "specific_focus": [
+            "Electrical Engineering",
+            "Computer Science",
+            "Telecommunication",
+            "Instrumentation and Control"
+        ],
+        "avg_processing_time": "8-12 weeks (submission to first decision)",
+        "url": "https://ijeecs.iaescore.com/"
+    },
+    {
+        "name": "Public Health of Indonesia (PHI )",
+        "rank": "SINTA 1",
+        "issn": "P-ISSN: 2528-1542 / E-ISSN: 2477-1570",
+        "publisher": "Yayasan Cipta Anak Bangsa (YCAB) Publisher",
+        "broad_field": "Health and Public Health",
+        "specific_focus": [
+            "Epidemiology",
+            "Health Policy",
+            "Environmental Health",
+            "Health Promotion"
+        ],
+        "avg_processing_time": "33 days (to first editorial decision)",
+        "url": "https://stikbar.org/ycabpublisher/index.php/PHI/index"
+    },
+    {
+        "name": "Journal of Law and Legal Reform (JLLR )",
+        "rank": "SINTA 1",
+        "issn": "P-ISSN: 2715-0941 / E-ISSN: 2715-0968",
+        "publisher": "Universitas Negeri Semarang (UNNES)",
+        "broad_field": "Law",
+        "specific_focus": [
+            "Legal Reform",
+            "Criminal Law",
+            "Constitutional Law",
+            "Human Rights Law"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://journal.unnes.ac.id/journals/jllr"
+    },
+    {
+        "name": "Journal on Mathematics Education (JME )",
+        "rank": "SINTA 1",
+        "issn": "P-ISSN: 2087-8885 / E-ISSN: 2338-4643",
+        "publisher": "Universitas Sriwijaya (UNSRI)",
+        "broad_field": "Education",
+        "specific_focus": [
+            "Mathematics Education",
+            "Realistic Mathematics Education (RME)",
+            "Teaching and Learning"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://ejournal.unsri.ac.id/index.php/jme"
+    },
+    {
+        "name": "AGRIVITA, Journal of Agricultural Science",
+        "rank": "SINTA 1",
+        "issn": "P-ISSN: 0126-0537 / E-ISSN: 2086-4841",
+        "publisher": "Universitas Brawijaya (UB )",
+        "broad_field": "Agriculture and Biology",
+        "specific_focus": [
+            "Agricultural Science",
+            "Plant Science",
+            "Soil Science",
+            "Agribusiness"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://agrivita.ub.ac.id/"
+    },
+    {
+        "name": "Journal of Indonesian Economy and Business (JIEB )",
+        "rank": "SINTA 1",
+        "issn": "P-ISSN: 0215-2513 / E-ISSN: 2338-5844",
+        "publisher": "Faculty of Economics and Business, Universitas Gadjah Mada (UGM)",
+        "broad_field": "Economics and Business",
+        "specific_focus": [
+            "Macroeconomics",
+            "Microeconomics",
+            "Business Strategy",
+            "Finance"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://jieb.feb.ugm.ac.id/"
+    },
+    {
+        "name": "Humanitas: Indonesian Psychological Journal",
+        "rank": "SINTA 2",
+        "issn": "P-ISSN: 1693-7236 / E-ISSN: 2598-6368",
+        "publisher": "Universitas Ahmad Dahlan (UAD )",
+        "broad_field": "Psychology",
+        "specific_focus": [
+            "Empirical Psychology",
+            "Clinical Psychology",
+            "Social Psychology",
+            "Educational Psychology"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://journal1.uad.ac.id/index.php/Humanitas/index"
+    },
+    {
+        "name": "Jurnal Studi Komunikasi (JSK )",
+        "rank": "SINTA 2",
+        "issn": "P-ISSN: 2549-7294 / E-ISSN: 2549-7626",
+        "publisher": "Universitas Dr. Soetomo (UNITOMO)",
+        "broad_field": "Communication",
+        "specific_focus": [
+            "Media Studies",
+            "Journalism",
+            "Public Relations",
+            "New Media"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://jurnal.unitomo.ac.id/index.php/jsk"
+    },
+    {
+        "name": "Jurnal Teknik Industri (JTI )",
+        "rank": "SINTA 2",
+        "issn": "P-ISSN: 1978-1431 / E-ISSN: 2527-4112",
+        "publisher": "Universitas Muhammadiyah Malang (UMM)",
+        "broad_field": "Engineering",
+        "specific_focus": [
+            "Industrial Engineering",
+            "Supply Chain Management",
+            "Ergonomics",
+            "Production Systems"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://ejournal.umm.ac.id/index.php/jti"
+    },
+    {
+        "name": "Indonesian Journal of Health Administration (IJHA )",
+        "rank": "SINTA 1",
+        "issn": "P-ISSN: 2355-6021 / E-ISSN: 2540-9325",
+        "publisher": "Universitas Airlangga (UNAIR)",
+        "broad_field": "Health",
+        "specific_focus": [
+            "Health Policy",
+            "Health Management",
+            "Hospital Administration",
+            "Health Economics"
+        ],
+        "avg_processing_time": "15 days (to first review round)",
+        "url": "https://e-journal.unair.ac.id/jaki"
+    },
+    {
+        "name": "Jurnal Ilmu Sosial dan Ilmu Politik (JSP )",
+        "rank": "SINTA 2",
+        "issn": "P-ISSN: 1410-4946 / E-ISSN: 2502-7883",
+        "publisher": "Universitas Gadjah Mada (UGM)",
+        "broad_field": "Social Sciences",
+        "specific_focus": [
+            "Political Science",
+            "Sociology",
+            "Public Policy",
+            "International Relations"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://jurnal.ugm.ac.id/jsp"
+    },
+    {
+        "name": "Journal of Agribusiness and Rural Development Research (AGRARIS )",
+        "rank": "SINTA 1",
+        "issn": "P-ISSN: 2527-8975 / E-ISSN: 2527-8983",
+        "publisher": "Universitas Muhammadiyah Yogyakarta (UMY)",
+        "broad_field": "Agriculture and Economics",
+        "specific_focus": [
+            "Agribusiness",
+            "Rural Development",
+            "Agricultural Economics",
+            "Food Security"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://journal.umy.ac.id/index.php/agraris"
+    },
+    {
+        "name": "Jurnal Pendidikan IPA Indonesia (JPII )",
+        "rank": "SINTA 1",
+        "issn": "P-ISSN: 2252-6617 / E-ISSN: 2339-1286",
+        "publisher": "Universitas Negeri Semarang (UNNES)",
+        "broad_field": "Education and Science",
+        "specific_focus": [
+            "Science Education",
+            "Physics Education",
+            "Biology Education",
+            "Chemistry Education"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://journal.unnes.ac.id/nju/index.php/jpii"
+    },
+    {
+        "name": "Economic Journal of Emerging Markets (EJEM )",
+        "rank": "SINTA 2",
+        "issn": "P-ISSN: 2086-3128 / E-ISSN: 2502-180X",
+        "publisher": "Universitas Islam Indonesia (UII)",
+        "broad_field": "Economics and Business",
+        "specific_focus": [
+            "Emerging Markets",
+            "Development Economics",
+            "Islamic Economics",
+            "Finance"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://journal.uii.ac.id/EJEM"
+    },
+    {
+        "name": "Jurnal Psikologi Sosial (JPS )",
+        "rank": "SINTA 2",
+        "issn": "P-ISSN: 2356-377X / E-ISSN: 2502-6240",
+        "publisher": "Universitas Indonesia (UI)",
+        "broad_field": "Psychology",
+        "specific_focus": [
+            "Social Psychology",
+            "Community Psychology",
+            "Intergroup Relations",
+            "Cultural Psychology"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://jurnal.psikologi.ui.ac.id/index.php/jps"
+    },
+    {
+        "name": "Jurnal Riset Komunikasi (JURKOM )",
+        "rank": "SINTA 3",
+        "issn": "P-ISSN: 2355-8334 / E-ISSN: 2549-7685",
+        "publisher": "Universitas Islam Bandung (UNISBA)",
+        "broad_field": "Communication",
+        "specific_focus": [
+            "Communication Research",
+            "Strategic Communication",
+            "Media and Culture",
+            "Public Opinion"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://jurnalrisetkomunikasi.org/"
+    },
+    {
+        "name": "Journal of Novel Engineering Science and Technology (JNEST )",
+        "rank": "SINTA 3",
+        "issn": "P-ISSN: 2722-680X / E-ISSN: 2722-6818",
+        "publisher": "The Indonesian Institute of Science and Technology Research",
+        "broad_field": "Engineering",
+        "specific_focus": [
+            "Novel Engineering",
+            "Applied Technology",
+            "Materials Science",
+            "Mechanical Engineering"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://journal.instres.org/index.php/jnest"
+    },
+    {
+        "name": "Jurnal Aisyah : Jurnal Ilmu Kesehatan",
+        "rank": "SINTA 2",
+        "issn": "P-ISSN: 2502-4825 / E-ISSN: 2502-9495",
+        "publisher": "Universitas Aisyah Pringsewu",
+        "broad_field": "Health",
+        "specific_focus": [
+            "Nursing",
+            "Midwifery",
+            "Nutrition",
+            "Public Health"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated )",
+        "url": "https://aisyah.journalpress.id/"
+    },
+    {
+        "name": "LITE: Jurnal Bahasa, Sastra, dan Budaya",
+        "rank": "SINTA 2",
+        "issn": "P-ISSN: 1693-8186 / E-ISSN: 2528-5076",
+        "publisher": "Universitas Dian Nuswantoro (UDINUS )",
+        "broad_field": "Humanities",
+        "specific_focus": [
+            "Language Studies",
+            "Literature",
+            "Cultural Studies",
+            "Linguistics"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://publikasi.dinus.ac.id/index.php/lite"
+    },
+    {
+        "name": "Journal of Indonesian Applied Economics (JIAE )",
+        "rank": "SINTA 2",
+        "issn": "P-ISSN: 1907-7947 / E-ISSN: 2541-5395",
+        "publisher": "Universitas Brawijaya (UB)",
+        "broad_field": "Economics",
+        "specific_focus": [
+            "Applied Economics",
+            "Economic Policy",
+            "Development Economics",
+            "Regional Economics"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://jiae.ub.ac.id/"
+    },
+    {
+        "name": "Biosfer: Jurnal Pendidikan Biologi",
+        "rank": "SINTA 2",
+        "issn": "P-ISSN: 2087-3190 / E-ISSN: 2528-5742",
+        "publisher": "Universitas Negeri Jakarta (UNJ )",
+        "broad_field": "Education and Biology",
+        "specific_focus": [
+            "Biology Education",
+            "Science Teaching",
+            "Curriculum Development",
+            "Educational Technology"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://journal.unj.ac.id/unj/index.php/biosfer"
+    },
+    {
+        "name": "Jurnal Pendidikan Indonesia (JPI )",
+        "rank": "SINTA 2",
+        "issn": "P-ISSN: 2303-288X / E-ISSN: 2541-7207",
+        "publisher": "Universitas Pendidikan Ganesha (UNDIKSHA)",
+        "broad_field": "Education",
+        "specific_focus": [
+            "Educational Research",
+            "Learning Models",
+            "Curriculum",
+            "Educational Evaluation"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://ejournal.undiksha.ac.id/index.php/JPI"
+    },
+    {
+        "name": "Jurnal Ilmu Komunikasi UHO",
+        "rank": "SINTA 4",
+        "issn": "P-ISSN: 2338-8312 / E-ISSN: 2527-9173",
+        "publisher": "Universitas Halu Oleo (UHO )",
+        "broad_field": "Communication",
+        "specific_focus": [
+            "Communication Science",
+            "Media and Information",
+            "Public Relations",
+            "Journalism"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://jurnalilmukomunikasi.uho.ac.id/"
+    },
+    {
+        "name": "Jurnal Manajemen Universitas Bung Hatta (JMN )",
+        "rank": "SINTA 3",
+        "issn": "P-ISSN: 2302-0862 / E-ISSN: 2548-4773",
+        "publisher": "Universitas Bung Hatta",
+        "broad_field": "Economics and Business",
+        "specific_focus": [
+            "Management",
+            "Human Resource Management",
+            "Marketing Management",
+            "Financial Management"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://ejurnal.bunghatta.ac.id/index.php/JMN"
+    },
+    {
+        "name": "Jurnal Ilmu dan Budaya (JIB )",
+        "rank": "SINTA 3",
+        "issn": "P-ISSN: 2580-0371 / E-ISSN: 2580-038X",
+        "publisher": "Universitas Negeri Surabaya (UNESA)",
+        "broad_field": "Humanities and Culture",
+        "specific_focus": [
+            "Cultural Studies",
+            "Local Wisdom",
+            "Arts and Heritage",
+            "Social Anthropology"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://ejournal.unesa.ac.id/index.php/jib"
+    },
+    {
+        "name": "Jurnal Teknik Sipil (JTS )",
+        "rank": "SINTA 3",
+        "issn": "P-ISSN: 1410-9824 / E-ISSN: 2549-5550",
+        "publisher": "Universitas Sebelas Maret (UNS)",
+        "broad_field": "Engineering",
+        "specific_focus": [
+            "Civil Engineering",
+            "Structural Engineering",
+            "Water Resources",
+            "Transportation Engineering"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://jurnal.uns.ac.id/jts"
+    },
+    {
+        "name": "Jurnal Kesehatan Masyarakat (JKM )",
+        "rank": "SINTA 3",
+        "issn": "P-ISSN: 1858-3934 / E-ISSN: 2356-3346",
+        "publisher": "Universitas Diponegoro (UNDIP)",
+        "broad_field": "Health and Public Health",
+        "specific_focus": [
+            "Public Health",
+            "Health Nutrition",
+            "Environmental Health",
+            "Health Policy"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://ejournal3.undip.ac.id/index.php/jkm"
+    },
+    {
+        "name": "Jurnal Psikologi Pendidikan dan Bimbingan (JP2B )",
+        "rank": "SINTA 3",
+        "issn": "P-ISSN: 2502-2377 / E-ISSN: 2502-2385",
+        "publisher": "Universitas Negeri Padang (UNP)",
+        "broad_field": "Psychology and Education",
+        "specific_focus": [
+            "Educational Psychology",
+            "Guidance and Counseling",
+            "Learning Difficulties",
+            "Child Development"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "http://ejournal.unp.ac.id/index.php/jp2b"
+    },
+    {
+        "name": "Jurnal Ilmu Komunikasi Dan Media Sosial (JKOMDIS )",
+        "rank": "SINTA 4",
+        "issn": "P-ISSN: 2722-6885 / E-ISSN: 2722-6893",
+        "publisher": "Minartis Publisher",
+        "broad_field": "Communication",
+        "specific_focus": [
+            "Communication Science",
+            "Social Media",
+            "Digital Communication",
+            "Media Technology"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://jurnal.minartis.com/index.php/jkomdis"
+    },
+    {
+        "name": "Jurnal Ekonomi dan Bisnis (JEB )",
+        "rank": "SINTA 4",
+        "issn": "P-ISSN: 2528-0147 / E-ISSN: 2528-0147",
+        "publisher": "Universitas Kristen Satya Wacana (UKSW)",
+        "broad_field": "Economics and Business",
+        "specific_focus": [
+            "Business Management",
+            "Accounting",
+            "Finance",
+            "Marketing"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://ejournal.uksw.edu/jeb"
+    },
+    {
+        "name": "Jurnal Ranah Komunikasi (JRK )",
+        "rank": "SINTA 4",
+        "issn": "P-ISSN: 2541-0164 / E-ISSN: 2541-0172",
+        "publisher": "Universitas Andalas (UNAND)",
+        "broad_field": "Communication",
+        "specific_focus": [
+            "New Media",
+            "Journalism",
+            "Television Studies",
+            "Communication Policy"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://ranahkomunikasi.fisip.unand.ac.id/"
+    },
+    {
+        "name": "Jurnal Pendidikan Ekonomi & Bisnis (JPEB )",
+        "rank": "SINTA 2",
+        "issn": "P-ISSN: 2302-8693 / E-ISSN: 2549-3175",
+        "publisher": "Universitas Negeri Jakarta (UNJ)",
+        "broad_field": "Education and Economics",
+        "specific_focus": [
+            "Economic Education",
+            "Business Education",
+            "Entrepreneurship",
+            "Vocational Education"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://journal.unj.ac.id/unj/index.php/jpeb"
+    },
+    {
+        "name": "Jurnal Ilmu Hukum (JIH )",
+        "rank": "SINTA 2",
+        "issn": "P-ISSN: 1410-6329 / E-ISSN: 2502-3209",
+        "publisher": "Universitas Riau (UNRI)",
+        "broad_field": "Law",
+        "specific_focus": [
+            "Civil Law",
+            "Criminal Law",
+            "Administrative Law",
+            "International Law"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://ejournal.unri.ac.id/index.php/JIH"
+    },
+    {
+        "name": "Jurnal Teknik Mesin (JTM )",
+        "rank": "SINTA 4",
+        "issn": "P-ISSN: 2302-7778 / E-ISSN: 2549-287X",
+        "publisher": "Universitas Muhammadiyah Surakarta (UMS)",
+        "broad_field": "Engineering",
+        "specific_focus": [
+            "Mechanical Engineering",
+            "Materials Engineering",
+            "Energy Conversion",
+            "Manufacturing"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "http://jurnal.ums.ac.id/index.php/jtm"
+    },
+    {
+        "name": "Jurnal Ilmu Keperawatan (JIK )",
+        "rank": "SINTA 4",
+        "issn": "P-ISSN: 2338-6344 / E-ISSN: 2548-8922",
+        "publisher": "Universitas Syiah Kuala (USK)",
+        "broad_field": "Health",
+        "specific_focus": [
+            "Nursing Science",
+            "Community Health Nursing",
+            "Critical Care Nursing",
+            "Geriatric Nursing"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://jurnal.usk.ac.id/JIK"
+    },
+    {
+        "name": "Jurnal Ilmu Budaya (JIB )",
+        "rank": "SINTA 4",
+        "issn": "P-ISSN: 2338-9181 / E-ISSN: 2549-7529",
+        "publisher": "Universitas Brawijaya (UB)",
+        "broad_field": "Humanities",
+        "specific_focus": [
+            "Cultural Studies",
+            "Literature",
+            "Linguistics",
+            "History"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://jurnal.ub.ac.id/index.php/jib"
+    },
+    {
+        "name": "Jurnal Psikologi Klinis Indonesia (JPKI )",
+        "rank": "SINTA 4",
+        "issn": "P-ISSN: 2301-8178 / E-ISSN: 2549-1865",
+        "publisher": "Universitas Islam Negeri Sultan Syarif Kasim Riau",
+        "broad_field": "Psychology",
+        "specific_focus": [
+            "Clinical Psychology",
+            "Mental Health",
+            "Psychopathology",
+            "Psychological Assessment"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://ejournal.uin-suska.ac.id/index.php/jpki"
+    },
+    {
+        "name": "Jurnal Ilmu Komunikasi (JIK )",
+        "rank": "SINTA 5",
+        "issn": "P-ISSN: 2355-0287 / E-ISSN: 2549-3299",
+        "publisher": "Universitas BSI",
+        "broad_field": "Communication",
+        "specific_focus": [
+            "Communication Theory",
+            "Media and Technology",
+            "Public Speaking",
+            "Interpersonal Communication"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://ejournal.bsi.ac.id/ejurnal/index.php/jika"
+    },
+    {
+        "name": "Jurnal Manajemen dan Bisnis (JMB )",
+        "rank": "SINTA 5",
+        "issn": "P-ISSN: 2338-466X / E-ISSN: 2549-7650",
+        "publisher": "Universitas Muhammadiyah Makassar",
+        "broad_field": "Economics and Business",
+        "specific_focus": [
+            "Management",
+            "Business Administration",
+            "Entrepreneurship",
+            "Small and Medium Enterprises (SMEs)"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://journal.unismuh.ac.id/index.php/jmb"
+    },
+    {
+        "name": "Jurnal Teknik Elektro (JTE )",
+        "rank": "SINTA 5",
+        "issn": "P-ISSN: 2302-9495 / E-ISSN: 2549-0664",
+        "publisher": "Universitas Mercu Buana",
+        "broad_field": "Engineering",
+        "specific_focus": [
+            "Electrical Engineering",
+            "Power Systems",
+            "Electronics",
+            "Control Systems"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://ejournal.mercubuana.ac.id/index.php/JTE"
+    },
+    {
+        "name": "Jurnal Kesehatan Lingkungan (JKL )",
+        "rank": "SINTA 5",
+        "issn": "P-ISSN: 1978-760X / E-ISSN: 2540-9325",
+        "publisher": "Universitas Airlangga (UNAIR)",
+        "broad_field": "Health",
+        "specific_focus": [
+            "Environmental Health",
+            "Occupational Health",
+            "Water and Sanitation",
+            "Waste Management"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://e-journal.unair.ac.id/JKL"
+    },
+    {
+        "name": "Jurnal Hukum dan Peradilan (JHP )",
+        "rank": "SINTA 5",
+        "issn": "P-ISSN: 2302-8537 / E-ISSN: 2549-7626",
+        "publisher": "Universitas Islam Negeri Alauddin Makassar",
+        "broad_field": "Law",
+        "specific_focus": [
+            "Islamic Law",
+            "Constitutional Law",
+            "Judicial Review",
+            "Legal Practice"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "http://journal.uin-alauddin.ac.id/index.php/jhp"
+    },
+    {
+        "name": "Jurnal Pendidikan Dasar (JPD )",
+        "rank": "SINTA 5",
+        "issn": "P-ISSN: 2087-2135 / E-ISSN: 2549-5194",
+        "publisher": "Universitas Negeri Jakarta (UNJ)",
+        "broad_field": "Education",
+        "specific_focus": [
+            "Primary Education",
+            "Elementary School",
+            "Teaching Methods",
+            "Curriculum Development"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://journal.unj.ac.id/unj/index.php/jpd"
+    },
+    {
+        "name": "Jurnal Ilmu Pertanian Indonesia (JIPI )",
+        "rank": "SINTA 2",
+        "issn": "P-ISSN: 0853-4217 / E-ISSN: 2443-3432",
+        "publisher": "Institut Pertanian Bogor (IPB)",
+        "broad_field": "Agriculture",
+        "specific_focus": [
+            "Agronomy",
+            "Horticulture",
+            "Soil Science",
+            "Plant Protection"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://journal.ipb.ac.id/index.php/jipi"
+    },
+    {
+        "name": "Jurnal Psikologi Ulayat: Indonesian Journal of Indigenous Psychology",
+        "rank": "SINTA 2",
+        "issn": "P-ISSN: 2356-377X / E-ISSN: 2502-6240",
+        "publisher": "Konsorsium Psikologi Ilmiah Nusantara (KPIN )",
+        "broad_field": "Psychology",
+        "specific_focus": [
+            "Indigenous Psychology",
+            "Cultural Psychology",
+            "Traditional Practices",
+            "Local Wisdom"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://ejournal.uin-suka.ac.id/isoshum/PI"
+    },
+    {
+        "name": "International Journal of Public Health Science (IJPHS )",
+        "rank": "SINTA 1",
+        "issn": "P-ISSN: 2252-8806 / E-ISSN: 2722-7563",
+        "publisher": "Institute of Advanced Engineering and Science (IAES)",
+        "broad_field": "Health and Public Health",
+        "specific_focus": [
+            "Public Health",
+            "Epidemiology",
+            "Health Services",
+            "Environmental Health"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://ijphs.iaescore.com/"
+    },
+    {
+        "name": "Jurnal Ilmu Komunikasi (JIKOM )",
+        "rank": "SINTA 3",
+        "issn": "P-ISSN: 2302-9207 / E-ISSN: 2549-7626",
+        "publisher": "Universitas Pembangunan Nasional Veteran Yogyakarta (UPNVY)",
+        "broad_field": "Communication",
+        "specific_focus": [
+            "Communication Theory",
+            "Political Communication",
+            "Organizational Communication",
+            "Media Ethics"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://jurnal.upnyk.ac.id/index.php/jikom"
+    },
+    {
+        "name": "Jurnal Teknik Informatika (JTI )",
+        "rank": "SINTA 3",
+        "issn": "P-ISSN: 2302-3748 / E-ISSN: 2549-7626",
+        "publisher": "Universitas Ahmad Dahlan (UAD)",
+        "broad_field": "Engineering and Computer Science",
+        "specific_focus": [
+            "Informatics",
+            "Software Engineering",
+            "Data Mining",
+            "Artificial Intelligence"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://journal.uad.ac.id/index.php/JTI"
+    },
+    {
+        "name": "Jurnal Ilmu Administrasi Negara (JIAN )",
+        "rank": "SINTA 2",
+        "issn": "P-ISSN: 1410-9824 / E-ISSN: 2549-5550",
+        "publisher": "Universitas Gadjah Mada (UGM)",
+        "broad_field": "Social Sciences",
+        "specific_focus": [
+            "Public Administration",
+            "Bureaucracy",
+            "Public Policy",
+            "Governance"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://jurnal.ugm.ac.id/jian"
+    },
+    {
+        "name": "Jurnal Pendidikan dan Kebudayaan (JPK )",
+        "rank": "SINTA 2",
+        "issn": "P-ISSN: 0215-2513 / E-ISSN: 2338-5844",
+        "publisher": "Ministry of Education and Culture",
+        "broad_field": "Education and Humanities",
+        "specific_focus": [
+            "Education Policy",
+            "Cultural Studies",
+            "Curriculum",
+            "Teacher Education"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://jurnal.kemdikbud.go.id/index.php/jpk"
+    },
+    {
+        "name": "Jurnal Manajemen dan Kewirausahaan (JMK )",
+        "rank": "SINTA 2",
+        "issn": "P-ISSN: 1411-1438 / E-ISSN: 2338-8312",
+        "publisher": "Universitas Kristen Petra",
+        "broad_field": "Economics and Business",
+        "specific_focus": [
+            "Management",
+            "Entrepreneurship",
+            "Innovation",
+            "Small Business"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://puslit.petra.ac.id/journals/index.php/jmk"
+    },
+    {
+        "name": "Jurnal Hukum Ius Quia Iustum",
+        "rank": "SINTA 2",
+        "issn": "P-ISSN: 0854-8498 / E-ISSN: 2549-7626",
+        "publisher": "Universitas Islam Indonesia (UII )",
+        "broad_field": "Law",
+        "specific_focus": [
+            "Private Law",
+            "Constitutional Law",
+            "Legal Philosophy",
+            "Law and Society"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://journal.uii.ac.id/IUSTUM"
+    },
+    {
+        "name": "Jurnal Ilmu Kesehatan Masyarakat (JIKM )",
+        "rank": "SINTA 2",
+        "issn": "P-ISSN: 2302-7085 / E-ISSN: 2549-7626",
+        "publisher": "Universitas Andalas (UNAND)",
+        "broad_field": "Health and Public Health",
+        "specific_focus": [
+            "Public Health",
+            "Health Promotion",
+            "Maternal and Child Health",
+            "Health Policy"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "http://jurnal.fk.unand.ac.id/index.php/jikm"
+    },
+    {
+        "name": "Jurnal Psikologi Indonesia (JPI )",
+        "rank": "SINTA 3",
+        "issn": "P-ISSN: 2302-1099 / E-ISSN: 2549-7626",
+        "publisher": "Universitas Indonesia (UI)",
+        "broad_field": "Psychology",
+        "specific_focus": [
+            "General Psychology",
+            "Industrial and Organizational Psychology",
+            "Developmental Psychology",
+            "Educational Psychology"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://jurnal.psikologi.ui.ac.id/index.php/jpi"
+    },
+    {
+        "name": "Jurnal Komunikasi Ikatan Sarjana Komunikasi Indonesia (Jurnal Komunikasi ISKI )",
+        "rank": "SINTA 3",
+        "issn": "P-ISSN: 2549-2403 / E-ISSN: 2549-7626",
+        "publisher": "Ikatan Sarjana Komunikasi Indonesia (ISKI)",
+        "broad_field": "Communication",
+        "specific_focus": [
+            "Communication Science",
+            "Media and Society",
+            "Digital Media",
+            "Communication Policy"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://jurnal.iski.or.id/"
+    },
+    {
+        "name": "Jurnal Teknik Elektro dan Komputer (JTEK )",
+        "rank": "SINTA 4",
+        "issn": "P-ISSN: 2302-9495 / E-ISSN: 2549-0664",
+        "publisher": "Universitas Negeri Malang (UM)",
+        "broad_field": "Engineering and Computer Science",
+        "specific_focus": [
+            "Electrical Engineering",
+            "Computer Engineering",
+            "Informatics",
+            "Control Systems"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "http://journal2.um.ac.id/index.php/jtek"
+    },
+    {
+        "name": "Jurnal Pendidikan Vokasi (JPV )",
+        "rank": "SINTA 2",
+        "issn": "P-ISSN: 2088-2866 / E-ISSN: 2477-2453",
+        "publisher": "Universitas Negeri Yogyakarta (UNY)",
+        "broad_field": "Education",
+        "specific_focus": [
+            "Vocational Education",
+            "Technical Education",
+            "Skills Training",
+            "Curriculum Development"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://journal.uny.ac.id/index.php/jpv"
+    },
+    {
+        "name": "Jurnal Ilmu Pertanian (JIP )",
+        "rank": "SINTA 3",
+        "issn": "P-ISSN: 2302-1099 / E-ISSN: 2549-7626",
+        "publisher": "Universitas Gadjah Mada (UGM)",
+        "broad_field": "Agriculture",
+        "specific_focus": [
+            "Agricultural Science",
+            "Crop Production",
+            "Agroecology",
+            "Sustainable Agriculture"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://jurnal.ugm.ac.id/jip"
+    },
+    {
+        "name": "Jurnal Ilmu Administrasi (JIA )",
+        "rank": "SINTA 3",
+        "issn": "P-ISSN: 2302-1099 / E-ISSN: 2549-7626",
+        "publisher": "Universitas Brawijaya (UB)",
+        "broad_field": "Social Sciences",
+        "specific_focus": [
+            "Public Administration",
+            "Business Administration",
+            "Organizational Behavior",
+            "Public Service"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://jurnal.ub.ac.id/index.php/jia"
+    },
+    {
+        "name": "Jurnal Akuntansi dan Keuangan Indonesia (JAKI )",
+        "rank": "SINTA 2",
+        "issn": "P-ISSN: 1410-2420 / E-ISSN: 2338-5844",
+        "publisher": "Universitas Indonesia (UI)",
+        "broad_field": "Economics and Business",
+        "specific_focus": [
+            "Accounting",
+            "Financial Management",
+            "Auditing",
+            "Taxation"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://jaki.ui.ac.id/"
+    },
+    {
+        "name": "Jurnal Hukum Progresif (JHP )",
+        "rank": "SINTA 3",
+        "issn": "P-ISSN: 2302-1099 / E-ISSN: 2549-7626",
+        "publisher": "Universitas Islam Indonesia (UII)",
+        "broad_field": "Law",
+        "specific_focus": [
+            "Progressive Law",
+            "Socio-Legal Studies",
+            "Legal Theory",
+            "Human Rights"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://journal.uii.ac.id/JHP"
+    },
+    {
+        "name": "Jurnal Ilmu Kesehatan (JIK )",
+        "rank": "SINTA 3",
+        "issn": "P-ISSN: 2302-1099 / E-ISSN: 2549-7626",
+        "publisher": "Universitas Muhammadiyah Yogyakarta (UMY)",
+        "broad_field": "Health",
+        "specific_focus": [
+            "Health Science",
+            "Nursing",
+            "Midwifery",
+            "Health Education"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://journal.umy.ac.id/index.php/jik"
+    },
+    {
+        "name": "Jurnal Ilmu Budaya (JIB )",
+        "rank": "SINTA 5",
+        "issn": "P-ISSN: 2302-1099 / E-ISSN: 2549-7626",
+        "publisher": "Universitas Sumatera Utara (USU)",
+        "broad_field": "Humanities",
+        "specific_focus": [
+            "Cultural Studies",
+            "Anthropology",
+            "Archaeology",
+            "Folklore"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://jurnal.usu.ac.id/index.php/jib"
+    },
+    {
+        "name": "Jurnal Teknik Sipil dan Lingkungan (JTSL )",
+        "rank": "SINTA 5",
+        "issn": "P-ISSN: 2302-1099 / E-ISSN: 2549-7626",
+        "publisher": "Universitas Islam Indonesia (UII)",
+        "broad_field": "Engineering",
+        "specific_focus": [
+            "Civil Engineering",
+            "Environmental Engineering",
+            "Construction Management",
+            "Water Resources"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://journal.uii.ac.id/JTSL"
+    },
+    {
+        "name": "Jurnal Pendidikan Sains Indonesia (JPSI )",
+        "rank": "SINTA 3",
+        "issn": "P-ISSN: 2302-1099 / E-ISSN: 2549-7626",
+        "publisher": "Universitas Negeri Surabaya (UNESA)",
+        "broad_field": "Education and Science",
+        "specific_focus": [
+            "Science Education",
+            "Inquiry-Based Learning",
+            "Science Curriculum",
+            "Educational Assessment"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://ejournal.unesa.ac.id/index.php/jpsi"
+    },
+    {
+        "name": "Jurnal Psikologi Sosial dan Budaya (JPSB )",
+        "rank": "SINTA 5",
+        "issn": "P-ISSN: 2302-1099 / E-ISSN: 2549-7626",
+        "publisher": "Universitas Islam Negeri Syarif Hidayatullah Jakarta",
+        "broad_field": "Psychology",
+        "specific_focus": [
+            "Social Psychology",
+            "Cultural Psychology",
+            "Islamic Psychology",
+            "Indigenous Psychology"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://journal.uinjkt.ac.id/index.php/jpsb"
+    },
+    {
+        "name": "Jurnal Ilmu Komunikasi (JIK )",
+        "rank": "SINTA 4",
+        "issn": "P-ISSN: 2302-1099 / E-ISSN: 2549-7626",
+        "publisher": "Universitas Padjadjaran (UNPAD)",
+        "broad_field": "Communication",
+        "specific_focus": [
+            "Communication Science",
+            "Media and Culture",
+            "Public Relations",
+            "Journalism"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://jurnal.unpad.ac.id/jik"
+    },
+    {
+        "name": "Jurnal Ekonomi Pembangunan (JEP )",
+        "rank": "SINTA 3",
+        "issn": "P-ISSN: 2302-1099 / E-ISSN: 2549-7626",
+        "publisher": "Universitas Gadjah Mada (UGM)",
+        "broad_field": "Economics",
+        "specific_focus": [
+            "Development Economics",
+            "Regional Economics",
+            "Poverty",
+            "Economic Growth"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://jurnal.ugm.ac.id/jep"
+    },
+    {
+        "name": "Jurnal Hukum dan Pembangunan (JHP )",
+        "rank": "SINTA 3",
+        "issn": "P-ISSN: 2302-1099 / E-ISSN: 2549-7626",
+        "publisher": "Universitas Indonesia (UI)",
+        "broad_field": "Law",
+        "specific_focus": [
+            "Law and Development",
+            "Environmental Law",
+            "Economic Law",
+            "Legal Policy"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://jurnal.ui.ac.id/jhp"
+    },
+    {
+        "name": "Jurnal Teknik Industri (JTI )",
+        "rank": "SINTA 4",
+        "issn": "P-ISSN: 2302-1099 / E-ISSN: 2549-7626",
+        "publisher": "Institut Teknologi Sepuluh Nopember (ITS)",
+        "broad_field": "Engineering",
+        "specific_focus": [
+            "Industrial Engineering",
+            "Logistics",
+            "Quality Management",
+            "Operations Research"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://ejurnal.its.ac.id/index.php/jti"
+    },
+    {
+        "name": "Jurnal Kesehatan Reproduksi (JKR )",
+        "rank": "SINTA 4",
+        "issn": "P-ISSN: 2302-1099 / E-ISSN: 2549-7626",
+        "publisher": "Universitas Airlangga (UNAIR)",
+        "broad_field": "Health",
+        "specific_focus": [
+            "Reproductive Health",
+            "Maternal Health",
+            "Family Planning",
+            "Sexual Health"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://e-journal.unair.ac.id/JKR"
+    },
+    {
+        "name": "Jurnal Ilmu Budaya (JIB )",
+        "rank": "SINTA 3",
+        "issn": "P-ISSN: 2302-1099 / E-ISSN: 2549-7626",
+        "publisher": "Universitas Hasanuddin (UNHAS)",
+        "broad_field": "Humanities",
+        "specific_focus": [
+            "Cultural Studies",
+            "Linguistics",
+            "Literature",
+            "Local Wisdom"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://journal.unhas.ac.id/index.php/jib"
+    },
+    {
+        "name": "Jurnal Pendidikan Anak Usia Dini (JPAUD )",
+        "rank": "SINTA 4",
+        "issn": "P-ISSN: 2302-1099 / E-ISSN: 2549-7626",
+        "publisher": "Universitas Negeri Yogyakarta (UNY)",
+        "broad_field": "Education",
+        "specific_focus": [
+            "Early Childhood Education",
+            "Child Development",
+            "Play-Based Learning",
+            "Parenting"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://journal.uny.ac.id/index.php/jpaud"
+    },
+    {
+        "name": "Jurnal Ilmu Pertanian dan Lingkungan (JIPL )",
+        "rank": "SINTA 4",
+        "issn": "P-ISSN: 2302-1099 / E-ISSN: 2549-7626",
+        "publisher": "Universitas Padjadjaran (UNPAD)",
+        "broad_field": "Agriculture and Environment",
+        "specific_focus": [
+            "Agricultural Science",
+            "Environmental Management",
+            "Agroforestry",
+            "Sustainable Development"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://jurnal.unpad.ac.id/jipl"
+    },
+    {
+        "name": "Jurnal Manajemen Pemasaran (JMP )",
+        "rank": "SINTA 4",
+        "issn": "P-ISSN: 2302-1099 / E-ISSN: 2549-7626",
+        "publisher": "Universitas Kristen Petra",
+        "broad_field": "Economics and Business",
+        "specific_focus": [
+            "Marketing Management",
+            "Consumer Behavior",
+            "Digital Marketing",
+            "Brand Management"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://puslit.petra.ac.id/journals/index.php/jmp"
+    },
+    {
+        "name": "Jurnal Psikologi Industri dan Organisasi (JPIO )",
+        "rank": "SINTA 4",
+        "issn": "P-ISSN: 2302-1099 / E-ISSN: 2549-7626",
+        "publisher": "Universitas Airlangga (UNAIR)",
+        "broad_field": "Psychology",
+        "specific_focus": [
+            "Industrial Psychology",
+            "Organizational Behavior",
+            "Human Resource Management",
+            "Work Psychology"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://e-journal.unair.ac.id/JPIO"
+    },
+    {
+        "name": "Jurnal Ilmu Komunikasi (JIK )",
+        "rank": "SINTA 5",
+        "issn": "P-ISSN: 2302-1099 / E-ISSN: 2549-7626",
+        "publisher": "Universitas Muhammadiyah Yogyakarta (UMY)",
+        "broad_field": "Communication",
+        "specific_focus": [
+            "Communication Science",
+            "Public Relations",
+            "Journalism",
+            "Media Literacy"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://journal.umy.ac.id/index.php/jik"
+    },
+    {
+        "name": "Jurnal Teknik Kimia (JTK )",
+        "rank": "SINTA 5",
+        "issn": "P-ISSN: 2302-1099 / E-ISSN: 2549-7626",
+        "publisher": "Universitas Gadjah Mada (UGM)",
+        "broad_field": "Engineering",
+        "specific_focus": [
+            "Chemical Engineering",
+            "Process Engineering",
+            "Reaction Engineering",
+            "Separation Technology"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://jurnal.ugm.ac.id/jtk"
+    },
+    {
+        "name": "Jurnal Kesehatan Masyarakat Nasional (JKMN )",
+        "rank": "SINTA 5",
+        "issn": "P-ISSN: 2302-1099 / E-ISSN: 2549-7626",
+        "publisher": "Universitas Indonesia (UI)",
+        "broad_field": "Health",
+        "specific_focus": [
+            "Public Health",
+            "Health Administration",
+            "Epidemiology",
+            "Health Policy"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://jurnal.ui.ac.id/jkmn"
+    },
+    {
+        "name": "Jurnal Hukum Islam (JHI )",
+        "rank": "SINTA 4",
+        "issn": "P-ISSN: 2302-1099 / E-ISSN: 2549-7626",
+        "publisher": "Universitas Islam Negeri Sunan Kalijaga",
+        "broad_field": "Law and Humanities",
+        "specific_focus": [
+            "Islamic Law",
+            "Family Law",
+            "Fiqh",
+            "Sharia"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://ejournal.uin-suka.ac.id/syariah/jhi"
+    },
+    {
+        "name": "Jurnal Pendidikan Dasar dan Menengah (JPDM )",
+        "rank": "SINTA 5",
+        "issn": "P-ISSN: 2302-1099 / E-ISSN: 2549-7626",
+        "publisher": "Universitas Negeri Padang (UNP)",
+        "broad_field": "Education",
+        "specific_focus": [
+            "Primary and Secondary Education",
+            "Teaching Methods",
+            "Curriculum",
+            "Educational Technology"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "http://ejournal.unp.ac.id/index.php/jpd"
+    },
+    {
+        "name": "Jurnal Ilmu Pertanian Tropika (JIPT )",
+        "rank": "SINTA 5",
+        "issn": "P-ISSN: 2302-1099 / E-ISSN: 2549-7626",
+        "publisher": "Universitas Brawijaya (UB)",
+        "broad_field": "Agriculture",
+        "specific_focus": [
+            "Tropical Agriculture",
+            "Horticulture",
+            "Plant Breeding",
+            "Pest and Disease Management"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://jurnal.ub.ac.id/index.php/jipt"
+    },
+    {
+        "name": "Jurnal Manajemen Bisnis (JMB )",
+        "rank": "SINTA 3",
+        "issn": "P-ISSN: 2302-1099 / E-ISSN: 2549-7626",
+        "publisher": "Universitas Gadjah Mada (UGM)",
+        "broad_field": "Economics and Business",
+        "specific_focus": [
+            "Business Management",
+            "Strategic Management",
+            "Operations Management",
+            "Organizational Behavior"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://jurnal.ugm.ac.id/jmb"
+    },
+    {
+        "name": "Jurnal Psikologi (JPSI )",
+        "rank": "SINTA 5",
+        "issn": "P-ISSN: 2302-1099 / E-ISSN: 2549-7626",
+        "publisher": "Universitas Islam Negeri Sultan Syarif Kasim Riau",
+        "broad_field": "Psychology",
+        "specific_focus": [
+            "General Psychology",
+            "Clinical Psychology",
+            "Educational Psychology",
+            "Social Psychology"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://ejournal.uin-suska.ac.id/index.php/jpsi"
+    },
+    {
+        "name": "Jurnal Ilmu Komunikasi (JIK )",
+        "rank": "SINTA 3",
+        "issn": "P-ISSN: 2302-1099 / E-ISSN: 2549-7626",
+        "publisher": "Universitas Islam Indonesia (UII)",
+        "broad_field": "Communication",
+        "specific_focus": [
+            "Communication Science",
+            "Media Studies",
+            "Public Relations",
+            "Intercultural Communication"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://journal.uii.ac.id/JIK"
+    },
+    {
+        "name": "Jurnal Teknik Industri (JTI )",
+        "rank": "SINTA 5",
+        "issn": "P-ISSN: 2302-1099 / E-ISSN: 2549-7626",
+        "publisher": "Universitas Diponegoro (UNDIP)",
+        "broad_field": "Engineering",
+        "specific_focus": [
+            "Industrial Engineering",
+            "Ergonomics",
+            "Supply Chain",
+            "Manufacturing Systems"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://ejournal3.undip.ac.id/index.php/jti"
+    },
+    {
+        "name": "Jurnal Kesehatan (JK )",
+        "rank": "SINTA 5",
+        "issn": "P-ISSN: 2302-1099 / E-ISSN: 2549-7626",
+        "publisher": "Universitas Brawijaya (UB)",
+        "broad_field": "Health",
+        "specific_focus": [
+            "Health Science",
+            "Public Health",
+            "Nutrition",
+            "Biomedicine"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://jurnal.ub.ac.id/index.php/jk"
+    },
+    {
+        "name": "Jurnal Hukum (JH )",
+        "rank": "SINTA 5",
+        "issn": "P-ISSN: 2302-1099 / E-ISSN: 2549-7626",
+        "publisher": "Universitas Padjadjaran (UNPAD)",
+        "broad_field": "Law",
+        "specific_focus": [
+            "Legal Studies",
+            "Constitutional Law",
+            "Criminal Law",
+            "Administrative Law"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://jurnal.unpad.ac.id/jh"
+    },
+    {
+        "name": "Jurnal Pendidikan (JP )",
+        "rank": "SINTA 3",
+        "issn": "P-ISSN: 2302-1099 / E-ISSN: 2549-7626",
+        "publisher": "Universitas Negeri Malang (UM)",
+        "broad_field": "Education",
+        "specific_focus": [
+            "Educational Research",
+            "Learning Models",
+            "Curriculum",
+            "Educational Technology"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "http://journal2.um.ac.id/index.php/jp"
+    },
+    {
+        "name": "Jurnal Ilmu Pertanian (JIP )",
+        "rank": "SINTA 5",
+        "issn": "P-ISSN: 2302-1099 / E-ISSN: 2549-7626",
+        "publisher": "Universitas Sumatera Utara (USU)",
+        "broad_field": "Agriculture",
+        "specific_focus": [
+            "Agricultural Science",
+            "Soil Science",
+            "Plantation",
+            "Agribusiness"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "https://jurnal.usu.ac.id/index.php/jip"
+    },
+    {
+        "name": "Jurnal Manajemen (JM )",
+        "rank": "SINTA 5",
+        "issn": "P-ISSN: 2302-1099 / E-ISSN: 2549-7626",
+        "publisher": "Universitas Negeri Padang (UNP)",
+        "broad_field": "Economics and Business",
+        "specific_focus": [
+            "Management",
+            "Financial Management",
+            "Marketing Management",
+            "Human Resource Management"
+        ],
+        "avg_processing_time": "12-16 weeks (estimated)",
+        "url": "http://ejournal.unp.ac.id/index.php/jm"
+    }
+]
