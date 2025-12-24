@@ -25,12 +25,31 @@ export async function POST(req: NextRequest) {
                 const pdf = require('pdf-parse');
                 const data = await pdf(buffer);
                 textForAnalysis = data.text;
-            } catch (e) {
-                console.error('PDF Parse Error', e);
-                return NextResponse.json({ error: 'Failed to parse PDF' }, { status: 500 });
+            } catch (e: any) {
+                console.error('PDF Parse Error:', e);
+                // Return original error message to help debug
+                return NextResponse.json({ error: `Failed to parse PDF: ${e.message || e}` }, { status: 500 });
+            }
+        } else if (
+            file.type === 'application/vnd.openxmlformats-officedocument.wordprocessingml.document' ||
+            file.type === 'application/msword' ||
+            file.name.endsWith('.docx') ||
+            file.name.endsWith('.doc')
+        ) {
+            try {
+                // eslint-disable-next-line @typescript-eslint/no-require-imports
+                const mammoth = require('mammoth');
+                const result = await mammoth.extractRawText({ buffer: buffer });
+                textForAnalysis = result.value;
+                if (result.messages.length > 0) {
+                    console.log("Mammoth messages:", result.messages);
+                }
+            } catch (e: any) {
+                console.error('Word Parse Error:', e);
+                return NextResponse.json({ error: `Failed to parse Word document: ${e.message || e}` }, { status: 500 });
             }
         } else {
-            // Assume text
+            // Assume text for .txt or others
             textForAnalysis = buffer.toString('utf-8');
         }
 

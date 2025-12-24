@@ -134,7 +134,7 @@ export default function Home() {
             <>
               <input
                 type="file"
-                accept=".pdf,.txt"
+                accept=".pdf,.txt,.docx,.doc"
                 onChange={handleFileChange}
                 className="absolute inset-0 w-full h-full opacity-0 cursor-pointer"
               />
@@ -143,7 +143,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-semibold text-slate-700 mb-2">Upload your Manuscript</h3>
               <p className="text-slate-500 text-center max-w-md">
-                Drag and drop your PDF here, or click to browse. We&apos;ll analyze it locally and securely.
+                Drag and drop your PDF or Word Doc here, or click to browse. We&apos;ll analyze it locally and securely.
               </p>
             </>
           ) : (
