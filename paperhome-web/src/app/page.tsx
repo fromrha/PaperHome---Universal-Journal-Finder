@@ -21,9 +21,12 @@ type Journal = {
   quartile?: string;
 };
 
+
 type AnalysisResult = {
   field: string;
+  broad_field?: string;
   keywords: string[];
+  suggested_keywords?: string[];
   summary: string;
 };
 
@@ -196,7 +199,12 @@ export default function Home() {
       const res = await fetch('/api/search', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ field: analysis.field, keywords: analysis.keywords }),
+        body: JSON.stringify({
+          field: analysis.field,
+          broad_field: analysis.broad_field,
+          keywords: analysis.keywords,
+          suggested_keywords: analysis.suggested_keywords
+        }),
       });
 
       if (!res.ok) throw new Error('Search failed');
@@ -318,7 +326,10 @@ export default function Home() {
               <div className="md:col-span-2 space-y-4">
                 <div className="p-5 bg-slate-50 rounded-2xl border border-slate-100">
                   <p className="text-sm font-semibold text-slate-500 uppercase tracking-wider mb-2">Detected Field</p>
-                  <p className="text-2xl font-bold text-slate-800">{analysis.field}</p>
+                  <div className="flex flex-col gap-1">
+                    <p className="text-2xl font-bold text-slate-800 leading-tight">{analysis.field}</p>
+                    {analysis.broad_field && <p className="text-sm text-slate-500 font-medium">{analysis.broad_field}</p>}
+                  </div>
                 </div>
                 <div className="p-5 bg-slate-50 rounded-2xl border border-slate-100">
                   <p className="text-sm font-semibold text-slate-500 uppercase tracking-wider mb-2">Summary</p>
@@ -327,14 +338,29 @@ export default function Home() {
               </div>
               <div className="space-y-4">
                 <div className="p-5 bg-slate-50 rounded-2xl border border-slate-100 h-full">
-                  <p className="text-sm font-semibold text-slate-500 uppercase tracking-wider mb-3">Keywords</p>
-                  <div className="flex flex-wrap gap-2">
-                    {analysis.keywords.map((k, i) => (
-                      <span key={i} className="px-3 py-1.5 bg-white border border-slate-200 rounded-lg text-sm text-slate-700 font-medium shadow-sm">
-                        {k}
-                      </span>
-                    ))}
+                  <div className="mb-4">
+                    <p className="text-sm font-semibold text-slate-500 uppercase tracking-wider mb-3">Primary Keywords</p>
+                    <div className="flex flex-wrap gap-2">
+                      {analysis.keywords.map((k, i) => (
+                        <span key={i} className="px-3 py-1.5 bg-white border border-slate-200 rounded-lg text-sm text-slate-700 font-medium shadow-sm">
+                          {k}
+                        </span>
+                      ))}
+                    </div>
                   </div>
+
+                  {analysis.suggested_keywords && analysis.suggested_keywords.length > 0 && (
+                    <div>
+                      <p className="text-sm font-semibold text-slate-500 uppercase tracking-wider mb-3">Related Topics (Expanded)</p>
+                      <div className="flex flex-wrap gap-2">
+                        {analysis.suggested_keywords.map((k, i) => (
+                          <span key={i} className="px-3 py-1.5 bg-blue-50 border border-blue-100 rounded-lg text-sm text-blue-700 font-medium shadow-sm">
+                            {k}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+                  )}
                 </div>
               </div>
             </div>

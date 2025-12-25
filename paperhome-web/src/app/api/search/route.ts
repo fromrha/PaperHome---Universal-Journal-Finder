@@ -6,13 +6,18 @@ export const runtime = 'nodejs';
 
 export async function POST(req: NextRequest) {
     try {
-        const { field, keywords } = await req.json();
+        const { field, broad_field, keywords, suggested_keywords } = await req.json();
 
         if (!field && (!keywords || keywords.length === 0)) {
             return NextResponse.json({ national: [], international: [] });
         }
 
-        const keywordsArray = Array.isArray(keywords) ? keywords : [keywords];
+        const primaryKeywords = Array.isArray(keywords) ? keywords : [keywords];
+        const secondaryKeywords = Array.isArray(suggested_keywords) ? suggested_keywords : [];
+
+        // Combined keywords for SCORING (Primary + Suggested)
+        // This allows broad terms like "Islamic Education" to match journals even if user only had "Pesantren"
+        const scoringKeywords = [...primaryKeywords, ...secondaryKeywords];
 
         // --- 1. National (SINTA) ---
         const rawNationalJournals = getSintaJournals(field);
@@ -21,20 +26,26 @@ export async function POST(req: NextRequest) {
         const nationalJournals = rawNationalJournals.map(j => {
             const scope = Array.isArray(j.specific_focus) ? j.specific_focus : [j.specific_focus as string];
 
-            // Calculate Keyword Match
-            let matchScore = calculateJaccardSimilarity(keywordsArray, scope);
+            // Use EXTENDED scoring keywords for the match
+            let matchScore = calculateJaccardSimilarity(scoringKeywords, scope);
 
-            // Baseline Boost: If journal has no specific scope but matches broad field, give it 50%
-            // Or if score is low but field matches, boost it.
-            // Check loosely if 'broad_field' contains our 'field' or vice versa
+            // Baseline Boost:
+            // 1. Specific Field Match (existing)
             const isFieldMatch = j.broad_field.toLowerCase().includes(field.toLowerCase()) ||
                 field.toLowerCase().includes(j.broad_field.toLowerCase());
 
+            // 2. Broad Field Match (new fallback)
+            // If specific field defined in paper fails, check if broad_field (from Gemini) matches journal's broad_field
+            const isBroadFieldMatch = broad_field && j.broad_field &&
+                (j.broad_field.toLowerCase().includes(broad_field.toLowerCase()) ||
+                    broad_field.toLowerCase().includes(j.broad_field.toLowerCase()));
+
             if (isFieldMatch) {
-                // If Jaccard is 0 (no specific keywords match), give meaningful baseline (e.g. 50%)
-                // If Jaccard > 0, give small boost (e.g. +20)
                 if (matchScore === 0) matchScore = 50;
                 else matchScore = Math.min(matchScore + 20, 100);
+            } else if (isBroadFieldMatch) {
+                // Weaker boost for just broad field match (e.g. Social Sciences)
+                if (matchScore === 0) matchScore = 30; // At least show it
             }
 
             return { ...j, matchScore };
@@ -47,13 +58,16 @@ export async function POST(req: NextRequest) {
         const apiKey = process.env.ELSEVIER_API_KEY;
 
         if (apiKey) {
-            // Refine Query: Include Field to ensure relevance (e.g. "Communication" AND ("keyword" OR "keyword"))
-            // Limiting keywords to top 3 to prevent query explosion
-            const topKeywords = keywordsArray.slice(0, 3).join('" OR "');
+            // QUERY Strategy:
+            // Use Primary Keywords for the SEARCH query to keep results relevant.
+            // Using "suggested/broad" keywords in the query might return too much noise.
+            // But we use "broad_field" as a filter if possible, or just the specific field.
+
+            const topKeywords = primaryKeywords.slice(0, 3).join('" OR "');
             const keywordQuery = `"${topKeywords}"`;
 
             // Search Query: (Subject(Field) OR TitleAbsKey(Field)) AND TitleAbsKey(Keywords)
-            // This forces the Field to be present, avoiding "Waste Management" showing up for "Communication" just because of one keyword.
+            // We use the specific 'field' for the query to ensure we get "Islamic Education" journals if that's the topic.
             const fieldQuery = `"${field}"`;
             const finalQuery = `TITLE-ABS-KEY(${fieldQuery}) AND TITLE-ABS-KEY(${keywordQuery}) AND SRCTYPE(j)`;
 
@@ -102,7 +116,6 @@ export async function POST(req: NextRequest) {
                                     const sjr = entry['SJRList']?.SJR?.[0]?.['$'] || 0;
 
                                     // Infer Quartile from CiteScore (Heuristic)
-                                    // This is an estimation as real quartiles depend on specific field percentiles.
                                     const cs = Number(citeScore) || 0;
                                     let quartile = '';
                                     if (cs >= 4.0) quartile = 'Q1';
@@ -114,18 +127,25 @@ export async function POST(req: NextRequest) {
                                     // eslint-disable-next-line @typescript-eslint/no-explicit-any
                                     const subjectAreas = entry['subject-area']?.map((s: any) => s['$']) || [];
 
-                                    // Calculate Match Score
-                                    let matchScore = calculateJaccardSimilarity(keywordsArray, subjectAreas);
+                                    // Calculate Match Score using EXTENDED keywords
+                                    let matchScore = calculateJaccardSimilarity(scoringKeywords, subjectAreas);
 
-                                    // Apply Baseline Boost for International as well
+                                    // Apply Baseline Boost for International
                                     const isFieldInScope = subjectAreas.some((s: string) =>
                                         s.toLowerCase().includes(field.toLowerCase()) ||
                                         field.toLowerCase().includes(s.toLowerCase())
                                     );
 
+                                    // Check if BROAD field is in scope (e.g. Social Sciences)
+                                    const isBroadInScope = broad_field ? subjectAreas.some((s: string) =>
+                                        s.toLowerCase().includes(broad_field.toLowerCase())
+                                    ) : false;
+
                                     if (isFieldInScope) {
                                         if (matchScore === 0) matchScore = 40;
                                         else matchScore = Math.min(matchScore + 20, 100);
+                                    } else if (isBroadInScope) {
+                                        if (matchScore === 0) matchScore = 20; // Minimal relevance
                                     }
 
                                     // Journal Link
@@ -135,7 +155,7 @@ export async function POST(req: NextRequest) {
 
                                     internationalJournals.push({
                                         name: entry['dc:title'],
-                                        rank: `${quartile} • CiteScore: ${citeScore}`, // Include Q in rank for filter to catch
+                                        rank: `${quartile} • CiteScore: ${citeScore}`,
                                         issn: issn,
                                         publisher: entry['dc:publisher'] || 'Unknown',
                                         broad_field: field,
