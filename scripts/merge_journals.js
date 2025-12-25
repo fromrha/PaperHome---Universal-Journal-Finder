@@ -46,7 +46,21 @@ function mergeJournals() {
 
     console.log(`Merged ${allJournals.length} journals.`);
 
-    fs.writeFileSync(OUTPUT_FILE, JSON.stringify(allJournals, null, 2));
+    // Remove duplicates based on journal name (case-insensitive)
+    const uniqueJournals = [];
+    const seenNames = new Set();
+
+    allJournals.forEach(journal => {
+        const normalizedName = journal.name.toLowerCase().trim();
+        if (!seenNames.has(normalizedName)) {
+            seenNames.add(normalizedName);
+            uniqueJournals.push(journal);
+        }
+    });
+
+    console.log(`After removing duplicates: ${uniqueJournals.length} unique journals.`);
+
+    fs.writeFileSync(OUTPUT_FILE, JSON.stringify(uniqueJournals, null, 2));
     console.log(`Saved master journal list to ${OUTPUT_FILE}`);
 }
 
