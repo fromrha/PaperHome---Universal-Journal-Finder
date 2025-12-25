@@ -236,7 +236,7 @@ export default function Home() {
       <section className="bg-white rounded-3xl p-6 lg:p-8 shadow-sm border border-slate-100 relative overflow-hidden group">
         <div className="absolute top-0 right-0 w-64 h-64 bg-blue-50 rounded-full blur-3xl opacity-20 group-hover:opacity-40 transition-opacity -mr-16 -mt-16"></div>
 
-        <div className="relative z-10 flex flex-col items-center justify-center border-2 border-dashed border-slate-200 rounded-2xl p-6 md:p-12 bg-slate-50/50 hover:bg-white hover:border-blue-400 transition-all duration-300">
+        <div className="relative z-10 flex flex-col items-center justify-center border-2 border-dashed border-slate-200 rounded-2xl px-4 py-8 md:p-12 bg-slate-50/50 hover:bg-white hover:border-blue-400 transition-all duration-300">
 
           {!file ? (
             <>
@@ -246,7 +246,7 @@ export default function Home() {
                 onChange={handleFileChange}
                 className="absolute inset-0 w-full h-full opacity-0 cursor-pointer"
               />
-              <div className="w-16 h-16 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center mb-4 shadow-sm">
+              <div className="w-16 h-16 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center mb-6 shadow-sm">
                 <Upload size={32} />
               </div>
               <h3 className="text-xl font-semibold text-slate-700 mb-2">Upload your Manuscript</h3>
