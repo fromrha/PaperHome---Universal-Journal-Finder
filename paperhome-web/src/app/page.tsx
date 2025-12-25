@@ -227,16 +227,16 @@ export default function Home() {
         <h2 className="text-2xl lg:text-3xl font-bold tracking-tight text-slate-800">
           Find the Perfect Journal
         </h2>
-        <p className="text-slate-500 text-lg">
-          Upload your manuscript and let PaperHome identifying the best publishing venues for you.
+        <p className="text-slate-500 text-base lg:text-lg">
+          Upload your manuscript and let PaperHome identify the best publishing venues for you.
         </p>
       </header>
 
       {/* Upload Section */}
-      <section className="bg-white rounded-3xl p-8 shadow-sm border border-slate-100 relative overflow-hidden group">
+      <section className="bg-white rounded-3xl p-6 lg:p-8 shadow-sm border border-slate-100 relative overflow-hidden group">
         <div className="absolute top-0 right-0 w-64 h-64 bg-blue-50 rounded-full blur-3xl opacity-20 group-hover:opacity-40 transition-opacity -mr-16 -mt-16"></div>
 
-        <div className="relative z-10 flex flex-col items-center justify-center border-2 border-dashed border-slate-200 rounded-2xl p-12 bg-slate-50/50 hover:bg-white hover:border-blue-400 transition-all duration-300">
+        <div className="relative z-10 flex flex-col items-center justify-center border-2 border-dashed border-slate-200 rounded-2xl p-6 md:p-12 bg-slate-50/50 hover:bg-white hover:border-blue-400 transition-all duration-300">
 
           {!file ? (
             <>

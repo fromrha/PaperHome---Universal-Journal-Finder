@@ -17,7 +17,6 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
                         alt="PaperHome Logo"
                         className="h-8 w-auto object-contain"
                     />
-                    <span className="font-bold text-lg text-slate-800">PaperHome</span>
                 </div>
                 <button
                     onClick={() => setSidebarOpen(true)}
