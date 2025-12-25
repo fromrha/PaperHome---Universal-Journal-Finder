@@ -23,7 +23,7 @@ export default function Sidebar() {
                     <img
                         src="/logomark.png"
                         alt="PaperHome Logo"
-                        className="h-8 w-auto object-contain"
+                        className="h-11 w-auto object-contain"
                     />
                 </div>
                 <nav className="flex-1 p-4 space-y-2">
