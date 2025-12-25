@@ -207,7 +207,10 @@ export default function Home() {
         }),
       });
 
-      if (!res.ok) throw new Error('Search failed');
+      if (!res.ok) {
+        const dat = await res.json();
+        throw new Error(dat.error || 'Search service unavailable');
+      }
 
       const data = await res.json();
       setResults(data);
@@ -296,8 +299,14 @@ export default function Home() {
 
       {/* Error Message */}
       {error && (
-        <div className="p-4 bg-red-50 text-red-700 rounded-xl border border-red-100 flex items-center gap-2 animate-in slide-in-from-top-2">
-          <span className="font-bold">Error:</span> {error}
+        <div className="p-4 bg-red-50 text-red-700 rounded-xl border border-red-100 flex flex-col gap-1 animate-in slide-in-from-top-2">
+          <div className="flex items-center gap-2">
+            <span className="font-bold">Error:</span>
+            <span>{error}</span>
+          </div>
+          <p className="text-xs text-red-500/80 mt-1">
+            If this persists, contact developer: <span className="font-semibold">rahmanhanafi@mhs.unsiq.ac.id</span> or IG <span className="font-semibold">@fromrha</span>
+          </p>
         </div>
       )}
 

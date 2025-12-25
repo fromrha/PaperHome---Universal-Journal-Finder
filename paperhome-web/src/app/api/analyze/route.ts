@@ -94,8 +94,20 @@ export async function POST(req: NextRequest) {
 
         return NextResponse.json(analysis);
 
-    } catch (error: unknown) {
+    } catch (error: any) {
         console.error('API Error:', error);
-        return NextResponse.json({ error: (error as Error).message || 'Internal Server Error' }, { status: 500 });
+
+        let message = 'An unexpected error occurred during analysis.';
+        let status = 500;
+
+        if (error.message?.includes('429') || error.status === 429) {
+            message = 'AI Rate limit reached. please try again in a moment.';
+            status = 429;
+        } else if (error.message?.includes('API_KEY_INVALID')) {
+            message = 'Invalid API Key configuration.';
+            status = 401;
+        }
+
+        return NextResponse.json({ error: message }, { status });
     }
 }
