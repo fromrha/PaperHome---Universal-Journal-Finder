@@ -1,5 +1,4 @@
-import fs from 'fs';
-import path from 'path';
+import journalsData from '../../data/master_journals.json';
 
 export interface Journal {
     name: string;
@@ -7,42 +6,26 @@ export interface Journal {
     issn: string;
     publisher: string;
     broad_field: string;
-    specific_focus: string[] | string; // Handle legacy string data if any
+    specific_focus: string[] | string;
     avg_processing_time: string;
     url: string;
 }
 
 export function getSintaJournals(researchField: string): Journal[] {
     try {
-        const filePath = path.join(process.cwd(), 'data', 'master_journals.json');
+        // Cast the imported JSON to our Journal type
+        const journals: Journal[] = journalsData as Journal[];
 
-        if (!fs.existsSync(filePath)) {
-            console.warn(`SINTA database not found at ${filePath}`);
+        if (!journals || journals.length === 0) {
+            console.warn("No SINTA journals found in database.");
             return [];
         }
 
-        const fileContent = fs.readFileSync(filePath, 'utf8');
-        const journals: Journal[] = JSON.parse(fileContent);
+        // Return ALL journals to allow the sophisticated Jaccard/Broad Field matching
+        // in the API route to determine what is relevant.
+        // Pre-filtering here was causing "0 results" because of strict text matching.
+        return journals;
 
-        if (!researchField) return [];
-
-        // const searchTerms = researchField.toLowerCase().split(' ').filter(term => term.length > 3); // Simple keyword extraction if full sentence
-
-        return journals.filter(j => {
-            const broad = (j.broad_field || '').toLowerCase();
-
-            let focus = '';
-            if (Array.isArray(j.specific_focus)) {
-                focus = j.specific_focus.join(' ').toLowerCase();
-            } else if (typeof j.specific_focus === 'string') {
-                focus = j.specific_focus.toLowerCase();
-            }
-
-            const textToSearch = `${broad} ${focus}`;
-
-            // Match if the research field (e.g. "Computer Science") appears in the journal data
-            return textToSearch.includes(researchField.toLowerCase());
-        }).slice(0, 50); // Limit results
     } catch (error) {
         console.error("Error loading SINTA journals:", error);
         return [];
