@@ -2,6 +2,8 @@
 
 import { useState, useEffect } from 'react';
 import { Upload, FileText, Search, Globe, MapPin, ExternalLink, Loader2, Sparkles } from 'lucide-react';
+import { useLanguage } from '@/lib/contexts/LanguageContext';
+import { TranslationKey } from '@/lib/translations';
 
 // Cleaned up type definitions
 type Journal = {
@@ -27,10 +29,14 @@ type AnalysisResult = {
   broad_field?: string;
   keywords: string[];
   suggested_keywords?: string[];
-  summary: string;
+  // Supports legacy single summary or new bilingual summaries
+  summary?: string;
+  summary_en?: string;
+  summary_id?: string;
 };
 
 export default function Home() {
+  const { t, language } = useLanguage();
   const [file, setFile] = useState<File | null>(null);
   const [analyzing, setAnalyzing] = useState(false);
   const [searching, setSearching] = useState(false);
@@ -39,7 +45,8 @@ export default function Home() {
   const [activeTab, setActiveTab] = useState<'national' | 'international'>('national');
   const [error, setError] = useState<string | null>(null);
   const [selectedJournal, setSelectedJournal] = useState<Journal | null>(null);
-  const [analysisStep, setAnalysisStep] = useState<string>('');
+  // Store the translation KEY for the step
+  const [analysisStep, setAnalysisStep] = useState<TranslationKey | ''>('');
   const [visibleCount, setVisibleCount] = useState<number>(5);
   // Filter State
   const [filters, setFilters] = useState({
@@ -97,6 +104,8 @@ export default function Home() {
         } else {
           // Include if exact time unknown or check for "fast" keywords?
           // For safety, exclude if we can't determine it's fast
+          // return false;
+          // Temporarily allowing unknown as we want broad matches? No, keep strict if filter is on.
           return false;
         }
       }
@@ -138,6 +147,8 @@ export default function Home() {
       setAnalysis(null);
       setResults(null);
       setError(null);
+      // Reset step
+      setAnalysisStep('');
     }
   };
 
@@ -146,7 +157,7 @@ export default function Home() {
 
     setAnalyzing(true);
     setError(null);
-    setAnalysisStep("Reading file content...");
+    setAnalysisStep('step_reading');
 
     const formData = new FormData();
     formData.append('file', file);
@@ -154,10 +165,10 @@ export default function Home() {
     // Simulated progress timer
     const progressTimer = setInterval(() => {
       setAnalysisStep((prev) => {
-        if (prev === "Reading file content...") return "Extracting text structure...";
-        if (prev === "Extracting text structure...") return "Sending to Nyth...";
-        if (prev === "Sending to Nyth...") return "Analyzing research field...";
-        if (prev === "Analyzing research field...") return "Generating keywords...";
+        if (prev === 'step_reading') return 'step_extracting';
+        if (prev === 'step_extracting') return 'step_sending';
+        if (prev === 'step_sending') return 'step_analyzing';
+        if (prev === 'step_analyzing') return 'step_generating';
         return prev;
       });
     }, 1500);
@@ -174,7 +185,7 @@ export default function Home() {
       }
 
       const data = await res.json();
-      setAnalysisStep("Finalizing results...");
+      setAnalysisStep('step_finalizing');
 
       // Artificial delay to show the final step briefly
       await new Promise(r => setTimeout(r, 800));
@@ -225,10 +236,10 @@ export default function Home() {
     <div className="space-y-8 animate-in fade-in duration-500">
       <header className="space-y-2 mb-8">
         <h2 className="text-2xl lg:text-3xl font-bold tracking-tight text-slate-800">
-          Find the Perfect Journal
+          {t('header_title')}
         </h2>
         <p className="text-slate-500 text-base lg:text-lg">
-          Upload your manuscript and let PaperHome identify the best publishing venues for you.
+          {t('header_desc')}
         </p>
       </header>
 
@@ -249,9 +260,9 @@ export default function Home() {
               <div className="w-16 h-16 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center mb-6 shadow-sm">
                 <Upload size={32} />
               </div>
-              <h3 className="text-xl font-semibold text-slate-700 mb-2">Upload your Manuscript</h3>
+              <h3 className="text-xl font-semibold text-slate-700 mb-2">{t('upload_title')}</h3>
               <p className="text-slate-500 text-center max-w-md">
-                Drag and drop your PDF or Word Doc here, or click to browse. We&apos;ll analyze it locally and securely.
+                {t('upload_desc')}
               </p>
             </>
           ) : (
@@ -273,11 +284,11 @@ export default function Home() {
                       className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-xl font-medium shadow-lg shadow-blue-200 flex items-center justify-center gap-2 transition-all disabled:opacity-80 disabled:cursor-wait w-full sm:w-auto min-w-[200px]"
                     >
                       {analyzing ? <Loader2 className="animate-spin" size={20} /> : <Sparkles size={20} />}
-                      {analyzing ? 'Analyzing...' : 'Analyze Paper'}
+                      {analyzing ? t('analyzing_btn') : t('analyze_btn')}
                     </button>
-                    {analyzing && (
+                    {analyzing && analysisStep && (
                       <p className="text-sm font-medium text-blue-600 animate-pulse mt-2">
-                        {analysisStep}
+                        {t(analysisStep as TranslationKey)}
                       </p>
                     )}
                   </>
@@ -288,7 +299,7 @@ export default function Home() {
                     onClick={() => setFile(null)}
                     className="px-4 py-2 text-slate-500 hover:text-slate-700 font-medium text-sm mt-2"
                   >
-                    Change File
+                    {t('upload_change')}
                   </button>
                 )}
               </div>
@@ -317,7 +328,7 @@ export default function Home() {
             <div className="flex items-center justify-between mb-6">
               <h3 className="text-xl font-bold flex items-center gap-2 text-slate-800">
                 <Sparkles className="text-purple-500" size={24} />
-                Analysis Results
+                {t('results_title')}
               </h3>
               {!results && (
                 <button
@@ -326,7 +337,7 @@ export default function Home() {
                   className="px-6 py-3 bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl font-semibold shadow-lg shadow-indigo-200 flex items-center gap-2 transition-all disabled:opacity-70"
                 >
                   {searching ? <Loader2 className="animate-spin" size={20} /> : <Search size={20} />}
-                  Find Matching Journals
+                  {searching ? t('searching_btn') : t('search_btn')}
                 </button>
               )}
             </div>
@@ -334,21 +345,23 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="md:col-span-2 space-y-4">
                 <div className="p-5 bg-slate-50 rounded-2xl border border-slate-100">
-                  <p className="text-sm font-semibold text-slate-500 uppercase tracking-wider mb-2">Detected Field</p>
+                  <p className="text-sm font-semibold text-slate-500 uppercase tracking-wider mb-2">{t('results_field')}</p>
                   <div className="flex flex-col gap-1">
                     <p className="text-2xl font-bold text-slate-800 leading-tight">{analysis.field}</p>
                     {analysis.broad_field && <p className="text-sm text-slate-500 font-medium">{analysis.broad_field}</p>}
                   </div>
                 </div>
                 <div className="p-5 bg-slate-50 rounded-2xl border border-slate-100">
-                  <p className="text-sm font-semibold text-slate-500 uppercase tracking-wider mb-2">Summary</p>
-                  <p className="text-slate-700 leading-relaxed">{analysis.summary}</p>
+                  <p className="text-sm font-semibold text-slate-500 uppercase tracking-wider mb-2">{t('results_summary')}</p>
+                  <p className="text-slate-700 leading-relaxed">
+                    {(language === 'id' && analysis.summary_id) ? analysis.summary_id : (analysis.summary_en || analysis.summary)}
+                  </p>
                 </div>
               </div>
               <div className="space-y-4">
                 <div className="p-5 bg-slate-50 rounded-2xl border border-slate-100 h-full">
                   <div className="mb-4">
-                    <p className="text-sm font-semibold text-slate-500 uppercase tracking-wider mb-3">Primary Keywords</p>
+                    <p className="text-sm font-semibold text-slate-500 uppercase tracking-wider mb-3">{t('results_keywords')}</p>
                     <div className="flex flex-wrap gap-2">
                       {analysis.keywords.map((k, i) => (
                         <span key={i} className="px-3 py-1.5 bg-white border border-slate-200 rounded-lg text-sm text-slate-700 font-medium shadow-sm">
@@ -360,7 +373,7 @@ export default function Home() {
 
                   {analysis.suggested_keywords && analysis.suggested_keywords.length > 0 && (
                     <div>
-                      <p className="text-sm font-semibold text-slate-500 uppercase tracking-wider mb-3">Related Topics (Expanded)</p>
+                      <p className="text-sm font-semibold text-slate-500 uppercase tracking-wider mb-3">{t('results_suggested')}</p>
                       <div className="flex flex-wrap gap-2">
                         {analysis.suggested_keywords.map((k, i) => (
                           <span key={i} className="px-3 py-1.5 bg-blue-50 border border-blue-100 rounded-lg text-sm text-blue-700 font-medium shadow-sm">
@@ -386,14 +399,14 @@ export default function Home() {
               onClick={() => setActiveTab('national')}
               className={`px-6 py-3 font-medium text-lg relative whitespace-nowrap ${activeTab === 'national' ? 'text-blue-700' : 'text-slate-500 hover:text-slate-700'}`}
             >
-              National (SINTA)
+              {t('tab_national')}
               {activeTab === 'national' && <div className="absolute bottom-0 left-0 w-full h-1 bg-blue-600 rounded-t-full"></div>}
             </button>
             <button
               onClick={() => setActiveTab('international')}
               className={`px-6 py-3 font-medium text-lg relative whitespace-nowrap ${activeTab === 'international' ? 'text-indigo-700' : 'text-slate-500 hover:text-slate-700'}`}
             >
-              International (Scopus/DOAJ)
+              {t('tab_international')}
               {activeTab === 'international' && <div className="absolute bottom-0 left-0 w-full h-1 bg-indigo-600 rounded-t-full"></div>}
             </button>
           </div>
@@ -403,12 +416,12 @@ export default function Home() {
             <div className="lg:col-span-1 space-y-6">
               <div className="bg-white p-5 rounded-2xl border border-slate-100 shadow-sm sticky top-4">
                 <div className="flex items-center gap-2 mb-4">
-                  <span className="font-bold text-slate-800">Filters</span>
+                  <span className="font-bold text-slate-800">{t('filters_title')}</span>
                 </div>
 
                 {activeTab === 'national' && (
                   <div className="space-y-3 mb-6">
-                    <h4 className="text-xs font-bold text-slate-400 uppercase tracking-wider">SINTA Rank</h4>
+                    <h4 className="text-xs font-bold text-slate-400 uppercase tracking-wider">{t('filters_rank')}</h4>
                     {['SINTA 1', 'SINTA 2', 'SINTA 3', 'SINTA 4'].map((rank) => (
                       <label key={rank} className="flex items-center gap-2 cursor-pointer group">
                         <input
@@ -426,7 +439,7 @@ export default function Home() {
                 {activeTab === 'international' && (
                   <>
                     <div className="space-y-3 mb-6">
-                      <h4 className="text-xs font-bold text-slate-400 uppercase tracking-wider">Quartile</h4>
+                      <h4 className="text-xs font-bold text-slate-400 uppercase tracking-wider">{t('filters_quartile')}</h4>
                       {['Q1', 'Q2', 'Q3', 'Q4'].map((q) => (
                         <label key={q} className="flex items-center gap-2 cursor-pointer group">
                           <input
@@ -440,7 +453,7 @@ export default function Home() {
                       ))}
                     </div>
                     <div className="space-y-3 mb-6">
-                      <h4 className="text-xs font-bold text-slate-400 uppercase tracking-wider">Indexing</h4>
+                      <h4 className="text-xs font-bold text-slate-400 uppercase tracking-wider">{t('filters_indexing')}</h4>
                       {['Scopus', 'DOAJ', 'SSCI', 'AHCI'].map((idx) => (
                         <label key={idx} className="flex items-center gap-2 cursor-pointer group">
                           <input
@@ -457,7 +470,7 @@ export default function Home() {
                 )}
 
                 <div className="space-y-3 pt-4 border-t border-slate-100">
-                  <h4 className="text-xs font-bold text-slate-400 uppercase tracking-wider">Preferences</h4>
+                  <h4 className="text-xs font-bold text-slate-400 uppercase tracking-wider">{t('filters_pref')}</h4>
                   <label className="flex items-center gap-2 cursor-pointer group">
                     <input
                       type="checkbox"
@@ -465,7 +478,7 @@ export default function Home() {
                       onChange={() => setFilters(p => ({ ...p, openAccess: !p.openAccess }))}
                       className="rounded text-green-600 focus:ring-green-500 border-slate-300"
                     />
-                    <span className="text-sm text-slate-600 group-hover:text-slate-800 transition-colors">Open Access Only</span>
+                    <span className="text-sm text-slate-600 group-hover:text-slate-800 transition-colors">{t('filter_oa')}</span>
                   </label>
                   <label className="flex items-center gap-2 cursor-pointer group">
                     <input
@@ -474,7 +487,7 @@ export default function Home() {
                       onChange={() => setFilters(p => ({ ...p, fastTrack: !p.fastTrack }))}
                       className="rounded text-amber-600 focus:ring-amber-500 border-slate-300"
                     />
-                    <span className="text-sm text-slate-600 group-hover:text-slate-800 transition-colors">Fast Track (&lt; 12 weeks)</span>
+                    <span className="text-sm text-slate-600 group-hover:text-slate-800 transition-colors">{t('filter_fast')}</span>
                   </label>
                 </div>
               </div>
@@ -484,12 +497,12 @@ export default function Home() {
             <div className="lg:col-span-3 grid grid-cols-1 gap-4">
               {filteredList.length === 0 ? (
                 <div className="text-center py-12 text-slate-500 col-span-full bg-slate-50 rounded-2xl border border-dashed border-slate-200">
-                  <p>No journals found matching your filters.</p>
+                  <p>{t('no_results')}</p>
                   <button
                     onClick={() => setFilters({ sinta: [], quartile: [], indexing: [], openAccess: false, fastTrack: false })}
                     className="mt-2 text-blue-600 hover:underline text-sm font-medium"
                   >
-                    Clear all filters
+                    {t('clear_filters')}
                   </button>
                 </div>
               ) : (
@@ -621,7 +634,7 @@ export default function Home() {
                             }}
                             className="w-full sm:w-auto px-5 py-2.5 bg-blue-600 text-white hover:bg-blue-700 rounded-xl transition-colors text-sm font-semibold whitespace-nowrap shadow-md shadow-blue-200"
                           >
-                            Visit Website
+                            {t('visit_btn')}
                           </button>
                         </div>
                       </div>
@@ -635,12 +648,12 @@ export default function Home() {
                         onClick={() => setVisibleCount(prev => prev + 5)}
                         className="px-6 py-2 bg-white border border-slate-200 text-slate-600 font-medium rounded-full hover:bg-slate-50 transition-colors shadow-sm"
                       >
-                        Show More Journals
+                        {t('show_more')}
                       </button>
                     </div>
                   ) : (
                     <div className="text-center py-8 text-slate-400 text-sm font-medium">
-                      No more matching journals found.
+                      {t('no_more')}
                     </div>
                   )}
                 </>
@@ -677,15 +690,15 @@ export default function Home() {
 
             <div className="grid grid-cols-2 gap-6 mb-8">
               <div className="p-4 bg-slate-50 rounded-xl">
-                <p className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">ISSN</p>
+                <p className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">{t('details_issn')}</p>
                 <p className="font-mono text-slate-700 font-semibold">{selectedJournal.issn}</p>
               </div>
               <div className="p-4 bg-slate-50 rounded-xl">
-                <p className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">Processing Time</p>
+                <p className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">{t('details_time')}</p>
                 <p className="text-slate-700 font-semibold">{selectedJournal.avg_processing_time}</p>
               </div>
               <div className="col-span-2 p-4 bg-slate-50 rounded-xl">
-                <p className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-2">Focus & Scope</p>
+                <p className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-2">{t('details_focus')}</p>
                 <div className="flex flex-wrap gap-2">
                   {(Array.isArray(selectedJournal.specific_focus) ? selectedJournal.specific_focus : [selectedJournal.specific_focus]).map((tag: string | unknown, i: number) => (
                     typeof tag === 'string' && (
@@ -703,7 +716,7 @@ export default function Home() {
                 onClick={() => setSelectedJournal(null)}
                 className="px-5 py-2.5 text-slate-600 font-medium hover:bg-slate-50 rounded-xl transition-colors"
               >
-                Close
+                {t('details_close')}
               </button>
               <a
                 href={selectedJournal.url}
@@ -711,7 +724,7 @@ export default function Home() {
                 rel="noopener noreferrer"
                 className="px-5 py-2.5 bg-blue-600 text-white font-medium rounded-xl hover:bg-blue-700 shadow-lg shadow-blue-200 flex items-center gap-2 transition-all"
               >
-                Visit Journal Website
+                {t('details_visit')}
                 <ExternalLink size={18} />
               </a>
             </div>

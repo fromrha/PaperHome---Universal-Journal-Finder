@@ -70,13 +70,17 @@ export async function POST(req: NextRequest) {
         const prompt = `
       Analyze the following academic paper text and extract:
       
-      1. Broad Field: The general discipline (e.g., "Social Sciences", "Humanities", "Education", "Law").
-      2. Specific Field: The specific sub-discipline (e.g., "Islamic Education", "Constitutional Law").
-      3. Primary Keywords: 5 specific keywords found in the text.
-      4. Suggested Keywords: 5-7 BROAD or RELATED keywords that might typically categorize this paper in a journal system. Use this to bridge the gap between specific topics and general journal scopes. (e.g., if paper is "Pesantren", suggested: "Islamic Education", "Religious Education", "Islamic Studies").
-      5. Summary: A short abstract summary (max 2 sentences).
+      1. Broad Research Field (e.g., Social Sciences, Engineering, Law)
+      2. Specific Research Field (e.g., Islamic Education, Civil Law)
+      3. 5 Primary Keywords from the text
+      4. 5-7 "Suggested/Related" Keywords (broader terms to help find journals if specific keywords are too niche)
+      5. A short abstract summary in ENGLISH.
+      6. A short abstract summary in INDONESIAN (Bahasa Indonesia).
       
-      Return ONLY a JSON object with keys: "broad_field", "field" (this is the specific field), "keywords" (array of strings), "suggested_keywords" (array of strings), "summary".
+      Return ONLY a JSON object with keys: 
+      "broad_field", "field", "keywords" (array), "suggested_keywords" (array), 
+      "summary_en" (string), "summary_id" (string).
+      
       Do not include markdown formatting like \`\`\`json.
       
       Text:

@@ -3,6 +3,7 @@
 import { Home, BookOpen, Settings, FileText, Check } from 'lucide-react';
 import Link from 'next/link';
 import { useState } from 'react';
+import { useLanguage } from '@/lib/contexts/LanguageContext';
 
 interface SidebarProps {
     isOpen?: boolean;
@@ -10,6 +11,7 @@ interface SidebarProps {
 }
 
 export default function Sidebar({ isOpen, onClose }: SidebarProps) {
+    const { t } = useLanguage();
     const [showCitationModal, setShowCitationModal] = useState(false);
     const [citationStyle, setCitationStyle] = useState('APA 7th Edition');
 
@@ -55,25 +57,25 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
                 <nav className="flex-1 p-4 space-y-2">
                     <Link href="/" className="flex items-center gap-3 px-4 py-3 bg-blue-50 text-blue-700 rounded-xl font-medium transition-all shadow-sm">
                         <Home size={20} />
-                        Find Journal
+                        {t('sidebar_find')}
                     </Link>
                     <Link href="#" className="flex items-center gap-3 px-4 py-3 text-slate-600 hover:bg-slate-50 hover:text-slate-900 rounded-xl transition-all font-medium">
                         <BookOpen size={20} />
-                        My Library
+                        {t('sidebar_library')}
                     </Link>
                     <Link href="#" className="flex items-center gap-3 px-4 py-3 text-slate-600 hover:bg-slate-50 hover:text-slate-900 rounded-xl transition-all font-medium">
                         <FileText size={20} />
-                        Drafts
+                        {t('sidebar_drafts')}
                     </Link>
 
                     <div className="pt-6 mt-2">
-                        <p className="px-4 text-xs font-bold text-slate-400 uppercase tracking-wider mb-3">Settings</p>
+                        <p className="px-4 text-xs font-bold text-slate-400 uppercase tracking-wider mb-3">{t('sidebar_settings')}</p>
                         <button
                             onClick={() => setShowCitationModal(true)}
                             className="w-full flex items-center gap-3 px-4 py-2 text-slate-600 hover:bg-slate-50 rounded-lg text-sm transition-colors"
                         >
                             <Settings size={18} />
-                            Citation Style
+                            {t('sidebar_citation')}
                         </button>
                     </div>
                 </nav>
